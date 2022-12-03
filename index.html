@@ -1,0 +1,48 @@
+---
+title: Help Prospect Heights!
+layout: default
+---
+
+{% assign places = site.data.places | sort: "name" %}
+{% assign categories = site.data.categories | sort: "order" %}
+
+<nav>
+  <span class="heading-4">Jump to: </span>
+  <ul class="list pl0 mv2">
+  {% for category in categories %}
+    {% assign category_places = places | where: "category", category.name %}
+    {% unless category_places == empty %}
+    <li class="dib mr2"><a href="#{{category.name}}">{{category.heading}}</a></li>
+    {% endunless %}
+  {% endfor %}
+    <li class="dib mr2"><a href="#directory">Full Directory</a></li>
+  </ul>
+</nav>
+
+{% for category in categories %}
+<section id="{{ category.name }}" class="section">
+  {% assign category_places = places | where: "category", category.name %}
+  {% unless category_places == empty %}
+  <div class="section-heading">
+    <h2 class="heading-2">{{ category.heading }}</h2>
+    <a href="#top" class="back-to-top">↑</a>
+  </div>
+  {% for place in category_places %}
+    {% include place.html %}
+  {% endfor %}
+  {% endunless %}
+
+</section>
+{% endfor %}
+
+<section id="directory" class="directory section">
+  <div class="section-heading full-directory">
+    <h2 class="heading-2">Full Directory</h2>
+    <a href="#top" class="back-to-top">↑</a>
+  </div>
+  {% for place in places %}
+    {% unless place.category == "a1" %}
+    {% include place_mini.html %}
+    {% endunless %}
+  {% endfor %}
+</section>

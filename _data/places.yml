@@ -1,0 +1,2101 @@
+- name: Prospect Heights Neighborhood Development Council
+  category: a1
+  notes: >-
+    “The Prospect Heights Neighborhood Development Council (PHNDC) brings Prospect Heights community members together to build a safer, more just and sustainable neighborhood.”
+  social:
+    instagram: 'https://www.instagram.com/phndc_brooklyn/'
+    facebook: 'https://www.facebook.com/phndc/'
+  url: 'https://www.phndc.org'
+
+- name: Underhill Open Streets
+  category: a1
+  notes: >-
+    Updates from the organizers of weekday traffic-free Underhill Avenue, supported by PHNDC.
+  social:
+    instagram: 'https://www.instagram.com/underhilloscc/'
+- name: Vanderbilt Open Streets
+  category: a1
+  notes: >-
+    The official website of the traffic-free weekends on Vanderbilt Avenue, supported by PHNDC and NYC DOT’s Open Streets initiative.
+  social:
+    instagram: 'https://www.instagram.com/vanderbiltopenstreets/'
+  url: 'https://vanderbiltavenue.org'
+
+- name: 'North Flatbush Business Improvement District'
+  category: a1
+  notes: >-
+    A BID that supports the corridor of Flatbush Avenue from Atlantic Avenue to Grand Army Plaza.
+  social:
+    instagram: 'https://www.instagram.com/northflatbushbk/'
+    facebook: 'https://www.facebook.com/northflatbushbk/'
+  url: 'http://www.northflatbushbid.nyc'
+
+- name: 333 Lounge
+  category: food-drink
+  address: 333 Flatbush Ave.
+  phone: (718) 399-8008
+  supports:
+    - Pickup
+  notes: >-
+    Call or <a href="mailto:333bknyc@gmail.com">email</a> to place an order for pickup. Also offering their lounge space for rental.
+  social:
+    instagram: 'https://www.instagram.com/333.lounge/'
+    facebook: 'https://www.facebook.com/333loungenbk/'
+  url: 'https://www.333lounge.com'
+
+- name: Acme Pet Food Inc
+  category: store
+  address: 628 Vanderbilt Ave.
+  phone: (718) 789-8062
+  supports:
+    - Pickup
+    - Local Delivery
+  notes: >-
+    Local pet food store, in business for more than 30 years.
+  social:
+    instagram: 'https://www.instagram.com/acmepetfood/'
+
+- name: Alta Calidad
+  category: food-drink
+  address: 552 Vanderbilt Ave.
+  supports:
+    - Outdoor Seating
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/alta-calidad-employee-relief-fund'
+    - title: Gift Cards
+      url: 'https://www.toasttab.com/alta-calidad/giftcards'
+  services:
+    seamless: 'https://www.seamless.com/menu/alta-calidad-552-vanderbilt-ave-brooklyn/460349'
+    grubhub: 'https://www.grubhub.com/restaurant/alta-calidad-552-vanderbilt-ave-brooklyn/460349'
+    toast: 'https://www.toasttab.com/alta-calidad/v3'
+  social:
+    instagram: 'https://www.instagram.com/altacalidadbk/'
+    facebook: 'https://www.facebook.com/altacalidad'
+  url: 'https://altacalidadbk.com'
+
+- name: Amorina Pizza
+  category: food-drink
+  address: 624 Vanderbilt Ave.
+  phone: (718) 230-3030
+  supports:
+    - Outdoor Seating
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://direct.chownow.com/order/21483/locations/31103'
+    seamless: 'https://www.seamless.com/menu/amorina-cucina-rustica-624-vanderbilt-ave-brooklyn/292222'
+    grubhub: 'https://www.grubhub.com/restaurant/amorina-cucina-rustica-624-vanderbilt-ave-brooklyn/292222'
+  social:
+    instagram: 'https://www.instagram.com/amorinapizza/'
+  url: 'http://www.amorinapizza.com/'
+
+- name: Ample Hills
+  category: dessert
+  address: 623 Vanderbilt Ave.
+  phone: (718) 483-8199
+  notes: >-
+    The original Prospect Heights scoop shop, under new ownership.
+  social:
+    instagram: 'https://www.instagram.com/amplehills/'
+    facebook: 'https://www.facebook.com/amplehills/'
+  url: 'https://www.amplehills.com/location/prospect-heights'
+
+- name: Antonio’s Pizza
+  category: food-drink
+  address: 318 Flatbush Ave.
+  phone: ‭(718) 398-2300‬
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    slice: 'https://slicelife.com/restaurants/ny/brooklyn/11238/antonio-s-pizza/menu'
+    seamless: 'https://www.seamless.com/menu/antonios-pizzeria--restaurant-318-flatbush-ave-brooklyn/66813'
+    grubhub: 'https://www.grubhub.com/restaurant/antonios-pizzeria--restaurant-318-flatbush-ave-brooklyn/66813'
+  social:
+    instagram: 'https://www.instagram.com/antonios_pizza_/'
+  url: 'https://www.antoniosbrooklyn.com'
+
+- name: Art Cafe & Bar
+  category: food-drink
+  address: 884-886 Pacific St.
+  phone: (718) 857-2522
+  supports:
+    - Outdoor Seating
+    - Pickup
+    - Delivery
+  services:
+    doordash: 'https://www.doordash.com/store/art-cafe-and-bar-prospect-heights-1421418/en-US'
+  social:
+    instagram: 'https://www.instagram.com/artcafebrooklyn/'
+    facebook: 'https://www.facebook.com/pages/Art-Cafe/527841370624131'
+
+- name: The Bakery on Bergen
+  category: cafe
+  address: 740 Bergen St.
+  phone: (917) 519-6549
+  supports:
+    - Outdoor Seating
+  services:
+    seamless: 'https://www.seamless.com/menu/the-bakery-on-bergen-740-bergen-st-brooklyn/921677'
+    grubhub: 'https://www.grubhub.com/restaurant/the-bakery-on-bergen-740-bergen-st-brooklyn/921677'
+  social:
+    instagram: 'https://www.instagram.com/thebakeryonbergen/'
+    facebook: 'https://www.facebook.com/The-BAKERY-on-bergen-320305438166950/'
+  url: 'https://www.bakeryonbergen.com/'
+
+- name: Banh Mi Place
+  category: food-drink
+  address: 824 Washington Ave.
+  phone: (718) 552-2660
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/banh-mi-place-824-washington-ave-brooklyn/310686'
+    grubhub: 'https://www.grubhub.com/restaurant/banh-mi-place-824-washington-ave-brooklyn/310686'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/banh-mi-place/01MKo6J-RmCWJFzMsQzgXg'
+  social:
+    facebook: 'https://www.facebook.com/pages/Banh-Mi-Place/512832582210701'
+  url: 'https://banhmiplacebklyn.com/'
+
+- name: Bar Goto Niban
+  category: food-drink
+  address: 474 Bergen St.
+  phone: (718) 629-8986
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    upserve: 'https://app.upserve.com/s/bar-goto-niban-brooklyn'
+  social:
+    instagram: 'https://www.instagram.com/bargoto_niban/'
+  url: 'https://www.bargoto.com/location/bar-goto-niban/'
+
+- name: Bar Meridian
+  category: food-drink
+  address: 406 Prospect Pl.
+  supports:
+    - Outdoor Dining
+    - Pickup
+  links:
+    - title: Gift Cards
+      url: 'https://www.toasttab.com/bar-meridian/giftcards'
+  services:
+    resy: https://resy.com/cities/ny/bar-meridian
+  social:
+    instagram: 'https://www.instagram.com/bar_meridian_nyc/'
+  toast: 'https://www.toasttab.com/bar-meridian/v3'
+  url: 'https://www.barmeridian.com'
+
+- name: BCakeNY
+  category: dessert
+  phone: (347) 787-7199
+  notes: >-
+    Serving cake jars, cupcakes, and inventive custom cakes.
+  social:
+    instagram: 'https://www.instagram.com/bcakeny/'
+    facebook: 'https://www.facebook.com/BCakeNY/'
+  url: 'https://www.bcakeny.com/bcakenyshop/'
+
+- name: The Bearded Lady
+  category: food-drink
+  address: 686A Washington Ave.
+  phone: (718) 230-7600
+  notes: Open for outdoor dining and pickup.
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/bearded-lady-staff-support-fund'
+  services:
+    doordash: 'https://www.doordash.com/store/bearded-lady-brooklyn-1225994/en-US'
+    caviar: 'https://www.trycaviar.com/store/bearded-lady-brooklyn-1225994/en-US'
+  social:
+    instagram: 'https://www.instagram.com/bearded_lady_brooklyn/'
+    facebook: 'https://www.facebook.com/BeardedLadyBrooklyn/'
+  url: 'http://www.beardedladybrooklyn.com'
+
+- name: Beer Street South
+  category: food-drink
+  address: 550 Vanderbilt Ave.
+  supports:
+    - Outdoor Seating
+    - Pickup
+  links:
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/C3K54BY60YNAP/order'
+  services:
+    direct: 'https://beerstreetsouth550.com'
+  social:
+    instagram: 'https://www.instagram.com/beerstreetsouth/'
+    facebook: 'http://www.facebook.com/beerstreetny'
+    untappd: 'https://untappd.com/v/beer-street-south/9792005'
+  url: 'https://beerstreetsouth550.com'
+
+- name: Beer Witch
+  category: food-drink
+  address: 460 Bergen St.
+  supports:
+    - Outdoor Seating
+    - Pickup
+  notes: >-
+    New craft beer store just over the border in Park Slope.
+  services:
+    direct: 'https://www.clover.com/online-ordering/beer-witch-brooklyn'
+  url: https://www.beerwitchbrooklyn.com/
+
+- name: Bergen Bagels
+  category: food-drink
+  address: 473 Bergen Ave.
+  phones: (718) 789-7600
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    doordash: 'https://www.doordash.com/store/bergen-bagels-brooklyn-312992/en-US'
+    seamless: 'https://www.seamless.com/menu/bergen-bagels-on-bergen-473-bergen-st-brooklyn/549250'
+    grubhub: 'https://www.grubhub.com/restaurant/bergen-bagels-on-bergen-473-bergen-st-brooklyn/549250'
+  social:
+    instagram: 'https://www.instagram.com/bergen_bagels/'
+  url: 'http://www.bergenbagels.com/'
+
+- name: Bierwax
+  category: food-drink
+  address: 556 Vanderbilt Ave.
+  phone: (347) 533-8449
+  supports:
+    - Indoor Seating
+    - Outdoor Seating
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/covid19-relief-fund-for-bierwax-staff'
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/MY2KY2405T5NT/order'
+  services:
+    direct: 'https://my-site-100819-102620.square.site'
+    resy: 'https://resy.com/cities/ny/bierwax'
+  social:
+    instagram: 'https://www.instagram.com/bierwax/'
+    facebook: 'https://www.facebook.com/BierWax/'
+    untappd: 'https://untappd.com/v/bierwax/7133448'
+  url: 'https://www.bierwaxnyc.com'
+
+- name: Bilt Bar
+  category: food-drink
+  address: 583 Vanderbilt Ave.
+  phone: (347) 295-3579
+  supports:
+    - Outdoor Dining
+    - Pickup
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/bilt-bar-bartenders-relief-fund'
+  social:
+    instagram: 'https://www.instagram.com/biltbar/'
+    facebook: 'https://www.facebook.com/pages/category/Lounge/Bilt-Bar-100153434688553/'
+
+- name: BK Lobster
+  category: food-drink
+  address: 643 Vanderbilt Ave.
+  notes: >-
+    Coming soon.
+  social:
+    instagram: 'https://www.instagram.com/bklobsterprospectheights/'
+
+- name: BKLYN Clay
+  category: service
+  address: 535 Carlton Ave.
+  phone: (845) 481-3842
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.bklynclay.com/checkout/donate?donatePageId=5e795b6604497b59a692c207'
+    - title: Gift Cards
+      url: 'https://www.bklynclay.com/gift-certificates'
+  notes: >-
+    Open to members only. For questions, email <a href="mailto:info@bklynclay.com">info@bklynclay.com</a>
+  social:
+    instagram: 'https://www.instagram.com/bklynclay/'
+    facebook: 'https://www.facebook.com/bklynclay'
+  url: 'https://bklynclay.com'
+
+- name: BKLYN Cream
+  category: dessert
+  address: 459 Bergen St.
+  notes: >-
+    New scoop shop with old-school charm in the former Snowdays space behind BKLYN Crepe.
+  services:
+    seamless: 'https://www.seamless.com/menu/bklyn-cream-459-bergen-st-brooklyn/2396984'
+    grubhub: 'https://www.grubhub.com/restaurant/bklyn-cream-459-bergen-st-brooklyn/2396984'
+  social:
+    instagram: 'https://www.instagram.com/bklyncreamnyc/'
+  url: 'https://www.bklyncream.com/'
+
+- name: BKLYN Crepe & Juice
+  category: cafe
+  address: 214 Flatbush Ave.
+  phone: (718) 638-1023
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    caviar: 'https://www.trycaviar.com/store/brooklyn-crepe---juice-brooklyn-32612/en-US'
+    doordash: 'https://www.doordash.com/store/brooklyn-crepe-juice-brooklyn-32612/en-US'
+    postmates: 'https://postmates.com/merchant/brooklyn-crepe-juice-brooklyn'
+    seamless: 'https://www.seamless.com/menu/bklyn-crepe-214-flatbush-ave-brooklyn/310415'
+    grubhub: 'https://www.grubhub.com/restaurant/bklyn-crepe-214-flatbush-ave-brooklyn/310415'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/brooklyn-crepe-%26-juice-park-slope/7x5ubkWWQYiRliRSAiuF4Q'
+  social:
+    instagram: 'https://www.instagram.com/bklyncrepe/'
+    facebook: 'https://www.facebook.com/bklyn.crepe'
+  url: 'http://brooklyncrepe.com'
+
+- name: BKLYN Larder
+  category: grocer
+  address: 228 Flatbush Ave.
+  phone: (718) 783-1250
+  supports:
+    - Pickup
+    - Delivery
+  links:
+    - title: Gift Cards
+      url: 'https://www.bklynlarder.com/gift-cards/'
+  services:
+    direct: 'https://bklynlarder.square.site/'
+  social:
+    instagram: 'https://www.instagram.com/bklynlarder/'
+    facebook: 'https://www.facebook.com/BKLYN-LARDER-115860655123816/'
+  url: 'https://www.bklynlarder.com'
+
+
+- name: Black Iron Burger
+  category: food-drink
+  address: 234 Flatbush Ave.
+  phone: (929) 419-6888
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/1xwz41clg0'
+    - title: Gift Cards
+      url: 'https://www.blackironburger.com/gift-cards/'
+  services:
+    seamless: 'https://www.seamless.com/menu/black-iron-burger-234-flatbush-ave-brooklyn/1452872'
+    grubhub: 'https://www.grubhub.com/restaurant/black-iron-burger-234-flatbush-ave-brooklyn/1452872'
+  social:
+    instagram: 'https://www.instagram.com/blackironburger'
+    facebook: 'https://www.facebook.com/Blackironburgernyc/'
+  url: 'https://www.blackironburger.com/location/black-iron-burger-park-slope/'
+
+- name: Bleachers Sports Bar & Grill
+  category: food-drink
+  address: 240 Flatbush Ave.
+  phone: (718) 857-1111
+  supports:
+      - Outdoor Dining
+      - Pickup
+      - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/bleachers-sports-bar-240-flatbush-ave-brooklyn/1119107'
+    grubhub: 'https://www.grubhub.com/restaurant/bleachers-sports-bar-240-flatbush-ave-brooklyn/1119107'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/bleachers-sports-bar/rJs5gMYQSF-t_xv03XLxCA'
+  social:
+    instagram: 'https://www.instagram.com/240bleachers/'
+    facebook: 'https://www.facebook.com/240bleachers/'
+
+- name: Blue Marble
+  category: dessert
+  address: 186 Underhill Ave.
+  phone: (718) 399-6926
+  notes: >-
+    Coffee, pastries, pints, and cups available from the take-out window
+    or for delivery via Postmates. “Our hours and offerings may vary, but we will post daily.”'
+  services:
+    goldbelly: 'https://www.goldbelly.com/blue-marble-organic-ice-cream'
+    postmates: 'https://postmates.com/merchant/blue-marble-brooklyn'
+  social:
+    instagram: 'https://www.instagram.com/bluemarblebk/'
+    facebook: 'https://www.facebook.com/bluemarbleicecream/'
+  url: 'https://www.bluemarbleicecream.com'
+
+- name: Born Thai
+  category: food-drink
+  address: 293 Flatbush Ave.
+  phone: (347) 663-3674
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=5e889b98-7f3f-467a-8eae-adc91eaa6008'
+    doordash: 'https://www.doordash.com/store/born-thai-brooklyn-28507/en-US'
+    postmates: 'https://postmates.com/merchant/born-thai-brooklyn'
+    seamless: 'https://www.seamless.com/menu/born-thai-293-flatbush-ave-brooklyn/1152911'
+    grubhub: 'https://www.grubhub.com/restaurant/born-thai-293-flatbush-ave-brooklyn/1152911'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/born-thai/GwItgnPZQ8uqjmzCyDQ0JA'
+  social:
+    instagram: 'https://www.instagram.com/bornthaibklyn/'
+  url: 'https://www.bornbklyn.com/'
+
+- name: Branded Saloon
+  category: food-drink
+  address: 603 Vanderbilt Ave.
+  phone: (718) 484-8704
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/relief-fund-for-branded-saloon'
+  services:
+    direct: 'https://branded.revelup.com/weborder/?establishment=1'
+    doordash: 'https://www.doordash.com/store/branded-cattle-saloon-inc-brooklyn-893199/1318299/en-US'
+    seamless: 'https://www.seamless.com/menu/branded-saloon-603-vanderbilt-ave-brooklyn/298472'
+    grubhub: 'https://www.grubhub.com/restaurant/branded-saloon-603-vanderbilt-ave-brooklyn/298472'
+  social:
+    instagram: 'https://www.instagram.com/brandedsaloon/'
+  url: 'https://www.brandedsaloon.com'
+
+- name: Broccolino
+  category: food-drink
+  address: 446A Dean St.
+  phone: (718) 678-4200
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://direct.chownow.com/order/1935/locations/2543'
+  social:
+    instagram: 'https://www.instagram.com/broccolinonyc/'
+    facebook: 'https://www.facebook.com/NYCbroccolino/'
+  url: 'https://www.broccolinonyc.com'
+
+- name: Brooklyn High Low
+  category: cafe
+  address: 611 Vanderbilt Ave.
+  phone: (347) 295-3968
+  notes: >-
+    New afternoon tea spot on Vanderbilt Ave. DM or call for availability.
+  links:
+    - title: OpenTable Reservations
+      url: 'https://www.opentable.com/r/brooklyn-high-low-reservations-brooklyn'
+  social:
+    instagram: 'https://instagram.com/brooklynhighlow'
+  url: 'https://www.brooklynhighlow.com/'
+
+- name: Brooklyn Metal Works
+  category: service
+  address: 640 Dean St.
+  phone: (347) 762-4757
+  notes: >-
+    An appointment is needed to use the space,
+    email <a href="mailto:info@bkmetalworks.com">info@bkmetalworks.com</a> to book.
+  social:
+    instagram: 'https://www.instagram.com/brooklynmetalworks/'
+    facebook: 'http://www.facebook.com/BrooklynMetalWorks'
+  url: 'http://bkmetalworks.com'
+
+- name: Burrito Bar & Kitchen
+  category: food-drink
+  address: 307 Flatbush Ave.
+  phone: (718) 230-8646
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://direct.chownow.com/order/7878/locations/10581'
+  social:
+    instagram: 'https://www.instagram.com/burritobarbk'
+    facebook: 'https://www.facebook.com/BurritoBarBrooklyn'
+  url: 'https://www.burritobarbrooklyn.com/'
+
+- name: Cataldo’s
+  category: food-drink
+  address: 554 Vanderbilt Ave.
+  phone: (718) 857-6700
+  supports:
+    - Outdoor Dining
+    - Pickup
+  notes: >-
+    Family owned & operated Italian restaurant.
+  social:
+    instagram: 'https://www.instagram.com/cataldosbk/'
+  url: 'http://www.cataldos54.com'
+
+- name: Charm Bar
+  category: food-drink
+  address: 448 Dean St.
+  phone: (347) 799-2345
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/charm-bar--restaurant-448-dean-st-brooklyn/2466647'
+    grubhub: 'https://www.grubhub.com/restaurant/charm-bar--restaurant-448-dean-st-brooklyn/2466647'
+    doordash: 'https://www.doordash.com/store/charm-bar-restaurant-brooklyn-1368887/en-US'
+  social:
+    instagram: 'https://www.instagram.com/charmbarbk/'
+    facebook: 'https://www.facebook.com/charm.bar.37'
+  url: 'http://www.charmbarrestaurant.com/'
+
+- name: Cheryl’s Global Soul
+  category: food-drink
+  address: 236 Underhill Ave.
+  phone: (347) 529-2855
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  social:
+    instagram: 'https://www.instagram.com/cherylsglobalsoul/'
+    facebook: 'https://www.facebook.com/CherylsGlobalSoul'
+  url: 'https://www.cherylsglobalsoul.com'
+
+- name: Chuko
+  category: food-drink
+  address: 565 Vanderbilt Ave.
+  phone: (347) 425-9570
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  notes: >-
+    The neighborhood ramen spot.
+  services:
+    caviar: 'https://www.trycaviar.com/m/chuko-ramen-3843'
+    doordash: 'https://www.doordash.com/store/chuko-ramen-brooklyn-22335/en-US'
+  social:
+    instagram: 'https://www.instagram.com/chukobk/'
+  url: 'http://www.chukobk.com'
+
+- name: 'Ciao, Gloria'
+  category: cafe
+  address: 550 Vanderbilt Ave.
+  phone: (716) 666-2426
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/ciao-gloria-employee-fund'
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/0TSZB8YWYDFH0/order'
+  services:
+    direct: 'https://ciaogloria.square.site'
+    caviar: 'https://www.trycaviar.com/store/ciao--gloria-brooklyn-975195/en-US'
+    doordash: 'https://www.doordash.com/store/ciao-gloria-brooklyn-975195/en-US'
+  social:
+    instagram: 'https://www.instagram.com/ciaogloria/'
+  url: 'https://www.ciaogloria.com'
+
+- name: Cinnamon Girl
+  category: cafe
+  address: 80 Sixth Ave.
+  notes: 'Bakery that specializes vegan and gluten-free options in addition to traditional pastries.'
+  social:
+    instagram: 'https://www.instagram.com/cinnamon_girl_bk/'
+
+- name: Citrico
+  category: food-drink
+  address: 681 Washington Ave.
+  phone: (347) 955-4519
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    direct: 'http://citricobrooklyn.com/order-online/'
+    seamless: 'https://www.seamless.com/menu/citrico-681-washington-ave-brooklyn/291612'
+    grubhub: 'https://www.grubhub.com/restaurant/citrico-681-washington-ave-brooklyn/291612'
+  social:
+    instagram: 'https://www.instagram.com/citricobk/'
+  url: 'http://citricobrooklyn.com/'
+
+- name: Covenhoven
+  category: food-drink
+  address: 730 Classon Ave.
+  phone: (718) 483-9950
+  supports:
+    - Outdoor Seating
+    - Pickup
+  social:
+    instagram: 'https://www.instagram.com/covenhovennyc/'
+    facebook: 'https://www.facebook.com/covenhovennyc'
+    untappd: 'https://untappd.com/v/covenhoven/1406024'
+  url: 'https://www.covenhovennyc.com'
+
+- name: Dickey’s BBQ Pit
+  category: food-drink
+  address: 196A Flatbush Ave
+  phone: (347) 889-5400
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://www.dickeys.com/quote/order-menu/1683-brooklyn/limited-time-only-108'
+    seamless: 'https://www.seamless.com/menu/dickeys-barbecue-pit-196-a-flatbush-ave-brooklyn/736492'
+    grubhub: 'https://www.grubhub.com/restaurant/dickeys-barbecue-pit-196-a-flatbush-ave-brooklyn/736492'
+  social:
+    instagram: 'https://www.instagram.com/dickeys.bk/'
+  url: 'https://www.dickeys.com/locations/New-York/Brooklyn/1683-brooklyn'
+
+- name: Dough
+  category: cafe
+  address: 646 Vanderbilt Ave.
+  notes: >-
+    The doughnut shop is back open in Brooklyn with its cafe in the former Jocye Bakeshop space.
+  social:
+    instagram: https://www.instagram.com/doughdoughnuts/
+
+- name: Doughnut Plant
+  category: cafe
+  address: 245 Flatbush Ave.
+  phone: (212) 505-3700,245
+  links:
+    - title: Gift Cards
+      url: 'https://www.doughnutplant.com/store/gift-cards/'
+  services:
+    direct: 'https://order.doughnutplant.com/locations/doughnutplant'
+    goldbelly: 'https://www.goldbelly.com/doughnut-plant'
+  social:
+    instagram: 'https://www.instagram.com/doughnutplant/'
+  url: 'https://www.doughnutplant.com/location/brooklyn/'
+
+- name: El Paso Mexican Grill
+  category: food-drink
+  address: 387 Flatbush Ave.
+  phone: (201) 482-7247
+  services:
+    seamless: 'https://www.seamless.com/menu/el-paso-mexican-grill-ii-387-flatbush-ave-brooklyn/309183'
+    grubhub: 'https://www.grubhub.com/restaurant/el-paso-mexican-grill-ii-387-flatbush-ave-brooklyn/309183'
+  social:
+    instagram: 'https://www.instagram.com/elpasomexgrill/'
+
+- name: Eve’s Lounge
+  category: food-drink
+  address: 769 Washington Ave.
+  phone: (347) 442-5959
+  supports:
+    - Outdoor Dining
+    - Pickup
+  social:
+    instagram: 'https://www.instagram.com/eveslounge/'
+  url: 'https://eves769.com'
+
+- name: Faun
+  category: food-drink
+  address: 606 Vanderbilt Ave.
+  phone: (718) 576-6120
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/faun-staff-relief-fund'
+    - title: Gift Cards (25% Off)
+      url: 'https://faun.nyc/gift-cards'
+  services:
+    seamless: 'https://www.seamless.com/menu/faun-606-vanderbilt-ave-brooklyn/2423917'
+    grubhub: 'https://www.grubhub.com/restaurant/faun-606-vanderbilt-ave-brooklyn/2423917'
+    caviar: 'https://www.trycaviar.com/store/faun-brooklyn-133004/en-US'
+    resy: 'https://resy.com/cities/ny/faun'
+  social:
+    instagram: 'https://www.instagram.com/faun.nyc/'
+    facebook: 'https://facebook.com/faunnyc'
+  url: 'https://faun.nyc'
+
+- name: Fausto
+  category: food-drink
+  address: 348 Flatbush Ave.
+  phone: (917) 909-1427
+  supports:
+    - Indoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/fausto-employee-fund'
+  services:
+    caviar: 'https://www.trycaviar.com/store/fausto-brooklyn-993209/en-US'
+    doordash: 'https://www.doordash.com/store/fausto-brooklyn-993209/en-US'
+    resy: 'https://resy.com/cities/ny/fausto'
+    tock: 'https://www.exploretock.com/fausto'
+  social:
+    instagram: 'https://www.instagram.com/faustobrooklyn/'
+  url: 'https://www.faustobrooklyn.com'
+
+- name: Fermented Grapes
+  category: wine-liquor
+  address: 651 Vanderbilt Ave.
+  phone: (718) 230-3216
+  supports:
+    - Pickup
+    - Delivery
+  notes: >-
+    Call or email
+    <a href="mailto:customerservice@fermentedgrapes.net">customerservice@fermentedgrapes.net</a>
+    with what you’re looking for and a phone number to pre-order.
+  social:
+    instagram: 'https://www.instagram.com/fermentedgrapesbk/'
+  url: 'http://www.fermentedgrapes.net'
+
+- name: 'Finn’s Corner'
+  category: food-drink
+  address: 660 Washington Ave.
+  phone: (347) 663-9316
+  social:
+    instagram: 'https://www.instagram.com/finnscornernyc/'
+  url: 'http://www.finnscornernyc.com'
+
+- name: Flatbush Counter
+  category: food-drink
+  address: 295 Flatbush Ave.
+  notes: >-
+    New fast-casual concept from a former Flabush Farm and Bar(n) chef in the former Rose’s space.
+  social:
+    instagram: 'https://www.instagram.com/flatbushcounter/'
+  url: 'https://www.flatbushcounter.com'
+
+- name: Foodtown
+  category: grocer
+  address: 632 Vanderbilt Ave.
+  phone: (718) 783-1887
+  url: 'https://www.foodtown.com'
+
+- name: 'Four & Twenty Blackbirds'
+  category: dessert
+  address: 634 Dean St.
+  phone: (347) 350-5110
+  services:
+    caviar: 'https://www.trycaviar.com/store/four-and-twenty-blackbirds-brooklyn-313450/en-US'
+    doordash: 'https://www.doordash.com/store/four-and-twenty-blackbirds-brooklyn-313450/'
+    seamless: 'https://www.seamless.com/menu/four--twenty-blackbirds-634-dean-st-brooklyn/634346'
+    grubhub: 'https://www.grubhub.com/restaurant/four--twenty-blackbirds-634-dean-st-brooklyn/634346'
+    goldbelly: 'https://www.goldbelly.com/four-and-twenty-blackbirds'
+  social:
+    instagram: 'https://www.instagram.com/birdsblack_634_dean/'
+  url: 'https://birdsblack.com/'
+
+- name: Geido
+  category: food-drink
+  address: 331 Flatbush Ave.
+  phone: (718) 638-8866
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://direct.chownow.com/order/13995/locations/19649'
+  url: 'https://geido.nyc'
+
+- name: Gen Sushi
+  category: food-drink
+  address: 659 Washington Ave.
+  phone: (718) 398-3550
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/gen-restaurant-employee-fund'
+  services:
+    upserve: 'https://app.upserve.com/s/gen-brooklyn'
+  social:
+    instagram: 'https://www.instagram.com/gen.brooklyn/'
+  url: 'http://www.genbrooklyn.com'
+
+- name: Gold Star Beer Counter
+  category: food-drink
+  address: 176 Underhill Ave.
+  phone: (347) 955-5031
+  notes: >-
+    Beer to-go window along with seating indoors and outdoors. Check website and Untappd for inventory.
+  social:
+    instagram: 'https://www.instagram.com/goldstarbeercounter/'
+    untappd: 'https://untappd.com/v/gold-star-beer-counter/3171446'
+  url: 'http://goldstarbeercounter.com'
+
+- name: Good Reps
+  category: service
+  address: 639 Vanderbilt Ave.
+  notes: >-
+    Physical therapy by appointment.
+  social:
+    instagram: https://www.instagram.com/goodrepsphysicaltherapy/
+  url: 'https://goodrepspt.janeapp.com'
+
+- name: Gorilla Coffee
+  address: 472 Bergen St.
+  phone: (347) 987-3765
+  category: cafe
+  supports:
+    - Outdoor Seating
+    - Pickup
+  services:
+    direct: https://gorillacoffee.com/
+  social:
+    instagram: 'https://www.instagram.com/gorillacoffee/'
+  url: 'https://gorillacoffee.com'
+
+- name: Gran Caffe De Martini
+  category: cafe
+  address: 609 Vanderbilt Ave.
+  phone: (929) 306-8332
+  supports:
+    - Outdoor Dining
+    - Pickup
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/gran-caffe-de-martini-fund'
+    - title: Gift Cards
+      url: 'https://www.caffedemartini.com/product/gift-card/'
+  services:
+    caviar: 'https://www.trycaviar.com/store/gran-caffe--de-martini-brooklyn-524751/en-US'
+    seamless: 'https://www.seamless.com/menu/gran-caffe-de-martini-609-vanderbilt-ave-brooklyn/1008604'
+    grubhub: 'https://www.grubhub.com/restaurant/gran-caffe-de-martini-609-vanderbilt-ave-brooklyn/1008604'
+  social:
+    instagram: 'https://www.instagram.com/grancaffedemartini/'
+  url: 'https://www.caffedemartini.com'
+
+- name: El Gran Castillo de Jagua
+  category: food-drink
+  address: 355 Flatbush Ave.
+  phone: (718) 622-8700
+  supports:
+    - Pickup
+    - Delivery
+  url: 'https://www.elgrancastillo.com'
+
+- name: Homeslice Pizzeria
+  category: food-drink
+  address: 567 Vanderbilt Ave.
+  phone: (347) 632-9824
+  services:
+    slice: 'https://slicelife.com/restaurants/ny/brooklyn/11238/brooklyn-s-homeslice-pizzeria/menu'
+  social:
+    instagram: 'https://www.instagram.com/brooklyns_homeslice/'
+  url: 'https://www.brooklynshomeslicepizza.com'
+
+- name: Hungry Ghost
+  category: cafe
+  address: '253 Flatbush Ave. · 183 Sterling Pl.'
+  supports:
+    - Pickup
+  notes: >-
+    The local coffee chain has two locations in the neighborhood.
+  links:
+    - title: Gift Cards (20% Off)
+      url: 'https://squareup.com/gift/86HHGQC7C1RMH/order'
+  services:
+    direct: 'https://hungry-ghost-coffee.square.site/'
+  social:
+    instagram: 'https://www.instagram.com/hungryghostcoffee/'
+  url: 'https://www.hungryghostcoffee.com/'
+
+- name: Inaka Asian Cuisine
+  category: food-drink
+  address: 597 Vanderbilt Ave.
+  phone: (718) 398-8168
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://www.beyondmenu.com/37303/brooklyn/inaka-asian-cuisine-brooklyn-11238.aspx'
+  url: 'http://inakany.com'
+
+- name: The Islands
+  category: food-drink
+  address: 671 Washington Ave.
+  phone: (718) 398-3575
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    postmates: 'https://postmates.com/merchant/the-islands-brooklyn-1'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/the-islands/9jFnKcjVRBuUOpsVlzSgsg'
+
+- name: James
+  category: food-drink
+  address: 605 Carlton Ave.
+  phone: (718) 942-4255
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/james-staff-emergency-relief-fund'
+  services:
+    chownow: 'https://direct.chownow.com/order/21833/locations/31667'
+  social:
+    instagram: 'https://www.instagram.com/jamesbklyn/'
+    facebook: 'https://www.facebook.com/jamesrestaurant'
+  url: 'http://www.jamesrestaurantny.com'
+
+- name: Jono Pandolfi Designs
+  category: shop
+  address: 631 Vanderbilt Ave.
+  notes: >-
+    Summer pop-up shop for this ceramics maker.
+  social:
+    instagram: 'https://www.instagram.com/jonopandolfi/'
+  url: 'https://www.jonopandolfi.com/brooklyn-popup'
+
+- name: Joy Indian
+  category: food-drink
+  address: 301 Flatbush Ave.
+  phone: (718) 230-1165
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://joyindianrestaurant.com/order'
+  url: 'http://joyindianrestaurant.com'
+
+- name: Kami Asian
+  category: food-drink
+  address: 385 Flatbush Ave.
+  phone: (718) 398-3888
+  services:
+    direct: 'https://kamiasian.menucities.com/catalog.aspx?cid=66'
+  social:
+    facebook: 'https://www.facebook.com/kamiRestaurant'
+  url: 'http://kamiasian.com'
+
+- name: Ki Sushi
+  category: food-drink
+  address: 282 Flatbush Ave.
+  phone: (718) 230-1381
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    direct: 'http://www.kisushigroup.com/catalog.aspx?cid=2'
+  social:
+    instagram: 'https://www.instagram.com/ki_sushi_flatbush/'
+  url: 'http://www.kisushigroup.com'
+
+- name: Kimchi Grill
+  category: food-drink
+  address: 766 Washington Ave.
+  phone: (718) 360-1839
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://direct.chownow.com/order/11256/locations/15554'
+  social:
+    instagram: 'https://www.instagram.com/kimchigrill/'
+  url: 'https://www.kimchigrill.com'
+
+- name: King David Tacos
+  category: food-drink
+  address: 611 Bergen Ave.
+  notes: >-
+    First brick-and-mortar retail location serving Austin-style breakfast tacos. Check their Instagram in case of early sell-outs.
+  social:
+    instagram: 'https://www.instagram.com/kingdavidtacos/'
+    facebook: 'https://www.facebook.com/kingdavidtacos'
+  url: 'http://kingdavidtacos.com/'
+
+- name: Kit
+  category: food-drink
+  address: 657 Washington Ave.
+  notes: >-
+    New queer-focused cafe and shop in the former MeMe’s Diner space.
+  social:
+    instagram: 'https://www.instagram.com/kit_bklyn/'
+  services:
+    toast: 'https://www.toasttab.com/kitbklyn/v3'
+
+
+- name: Kombit Bar and Restaurant
+  category: food-drink
+  address: 279 Flatbush Ave.
+  phone: (718) 399-2000
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/kombit-279-flatbush-ave-brooklyn/2494124'
+    grubhub: 'https://www.grubhub.com/restaurant/kombit-279-flatbush-ave-brooklyn/2494124'
+    postmates: 'https://postmates.com/merchant/kombit-brooklyn'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/kombit/xjLtYP3vRKqbA5ymW4XmGQ'
+  social:
+    instagram: 'https://www.instagram.com/kombitbar/'
+    facebook: 'https://www.facebook.com/Kombitbar/'
+  url: 'https://www.kombitrestaurant.com/'
+
+- name: Konditori
+  category: cafe
+  address: 696 Washington Ave.
+  phone: (347) 689-8471
+  supports:
+    - Outdoor Seating
+    - Pickup
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/help-our-staff-at-konditori'
+  social:
+    instagram: 'https://www.instagram.com/konditori/'
+  url: https://konditori.com/our-locations/prospect-heights/
+
+- name: LaLou
+  category: food-drink
+  address: 581 Vanderbilt Ave.
+  supports:
+    - Outdoor Dining
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/lalou-employee-fund'
+  services:
+    resy: 'https://resy.com/cities/ny/lalou'
+    tock: 'https://www.exploretock.com/lalou/'
+    caviar: 'https://www.trycaviar.com/store/lalou-brooklyn-848169/en-US'
+    doordash: 'https://www.doordash.com/store/lalou-brooklyn-848169/en-US'
+  social:
+    instagram: 'https://www.instagram.com/laloubrooklyn/'
+    facebook: 'https://www.facebook.com/laloubrooklyn/'
+  url: 'https://laloubrooklyn.com'
+
+- name: Leland Eating and Drinking House
+  category: food-drink
+  address: 755 Dean St.
+  phone: (646) 470-7008
+  supports:
+    - Indoor Dining
+    - Outdoor Dining
+    - Pickup
+  notes: >-
+    Recently opened neighborhood restaurant in the former Dean Street space.
+  social:
+    instagram: https://www.instagram.com/lelandbrooklyn/
+    facebook: https://www.facebook.com/LelandBrooklyn
+  services:
+    toast: 'https://www.toasttab.com/lelandeatinganddrinkinghouse/v3'
+    resy: 'https://resy.com/cities/ny/leland-eating-and-drinking-house?date=2021-01-11&seats=2'
+  url: 'https://www.lelandbrooklyn.com/'
+
+- name: Life Reorganized
+  last_updated: 4/23/2020
+  category: service
+  phone: (917) 745-5433
+  notes: >-
+    “Solving home, life and small business problems to get your life
+    reorganized. Offering remote assistance only (see website for service
+    offerings).”
+  social:
+    instagram: 'https://www.instagram.com/lifereorganized/'
+  url: 'https://www.getmylifereorganized.com'
+
+- name: Lincoln Station
+  category: food-drink
+  address: 409 Lincoln Pl.
+  phone: (718) 399-2211
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    caviar: 'https://www.trycaviar.com/store/lincoln-station-brooklyn-20974/en-US'
+    doordash: 'https://www.doordash.com/store/lincoln-station-brooklyn-20974/en-US'
+    seamless: 'https://www.seamless.com/menu/lincoln-station-409-lincoln-pl-brooklyn/315738'
+    grubhub: 'https://www.grubhub.com/restaurant/lincoln-station-409-lincoln-pl-brooklyn/315738'
+  social:
+    instagram: 'https://instagram.com/lincolnstationbk'
+  url: 'https://www.stationfoods.com'
+
+- name: Little Cupcake Bakeshop
+  category: cafe
+  address: 598 Vanderbilt Ave.
+  phone: (718) 783-0770
+  supports:
+    - Pickup
+  links:
+    - title: Online Store
+      url: 'https://shop.littlecupcakebakeshop.com/'
+  social:
+    instagram: 'https://www.instagram.com/littlecupcakebakeshop/'
+  url: 'http://www.littlecupcakebakeshop.com'
+
+- name: Little MissMuffin N Her Stuffin
+  last_updated: 5/7/2020
+  category: food-drink
+  address: 768 Washington Ave.
+  notes: >-
+    “Aside from the eponymous muffins, they also have wonderful patties and
+    other Caribbean food”
+  social:
+    instagram: 'https://www.instagram.com/littlemissmuffinny/'
+
+- name: LOOK by Plant Love House
+  category: food-drink
+  address: 622 Washington Ave.
+  phone: (718) 622-0026
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/C8B77ATQE673H/order'
+  services:
+    caviar: 'https://www.trycaviar.com/store/look-by-plant-love-house-brooklyn-132880/en-US'
+    doordash: 'https://www.doordash.com/store/look-by-plant-love-house-brooklyn-132880/en-US'
+    seamless: 'https://www.seamless.com/menu/look-by-plant-love-house-622-washington-ave-brooklyn/344210'
+    grubhub: 'https://www.grubhub.com/restaurant/look-by-plant-love-house-622-washington-ave-brooklyn/344210'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/look-by-plant-love-house/IvIM_ZVuRniuCfOkMg9uXw'
+  social:
+    instagram: 'https://www.instagram.com/byplantlovehouse/'
+  url: 'https://www.plantlovehouse.com/look'
+
+- name: Lowerline
+  category: food-drink
+  address: 794 Washington Ave.
+  phone: (347) 533-7110
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/help-lowerline-keep-nola-cuisine-alive-in-brooklyn'
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/W0XRH9R9BY895/order'
+  services:
+    caviar: 'https://www.trycaviar.com/store/lowerline-brooklyn-524902/en-US'
+    doordash: 'https://www.doordash.com/store/lowerline-brooklyn-524902/en-US'
+  social:
+    instagram: 'https://www.instagram.com/lowerline/'
+    facebook: 'https://www.facebook.com/lowerlinebk'
+  url: 'https://www.lowerlinebk.com'
+
+- name: Maison Yaki
+  category: food-drink
+  address: 626 Vanderbilt Ave.
+  phone: (718) 552-2609
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/olmsted-amp-maison-yaki-staff-disaster-relief-fund'
+  services:
+    doordash: 'https://www.doordash.com/store/maison-yaki-brooklyn-993219/en-US'
+    caviar: 'https://www.trycaviar.com/store/maison-yaki-brooklyn-993219/en-US'
+    seamless: 'https://www.seamless.com/menu/maison-yaki-626-vanderbilt-ave-brooklyn/2569903'
+    grubhub: 'https://www.grubhub.com/restaurant/maison-yaki-626-vanderbilt-ave-brooklyn/2569903'
+    resy: 'https://resy.com/cities/ny/maison-yaki'
+  social:
+    instagram: 'https://www.instagram.com/maisonyaki/'
+  url: 'http://www.maisonyaki.com/'
+
+- name: Maya Taqueria
+  category: food-drink
+  address: 637 Vanderbilt Ave.
+  phone: (718) 638-6292
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://direct.chownow.com/order/7470/locations/10000'
+    seamless: 'https://www.seamless.com/menu/maya-taqueria-prospect-heights-637-vanderbilt-ave-brooklyn/80416'
+    grubhub: 'https://www.grubhub.com/restaurant/maya-taqueria-prospect-heights-637-vanderbilt-ave-brooklyn/80416'
+  social:
+    instagram: 'https://www.instagram.com/mayataqueria/'
+  url: 'https://www.mayataqueria.com'
+
+- name: Mei Chi Liquors
+  category: wine-liquor
+  address: 391 Flatbush Ave.
+  phone: (718) 622-1403
+  supports:
+    - Pickup
+    - Delivery
+  social:
+    instagram: 'https://www.instagram.com/mei_chi_liquor/'
+  url: 'https://www.brooklyncellars.com'
+
+- name: Mermaid’s Garden
+  category: grocer
+  address: 644 Vanderbilt Ave.
+  phone: (718) 638-1910
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    mercato: 'https://www.mercato.com/shop/mermaids-garden'
+  social:
+    instagram: 'https://www.instagram.com/mgfishnyc/'
+  url: 'https://www.mermaidsgardennyc.com'
+
+- name: Mexicocina Agaveria
+  category: food-drink
+  address: 708 Washington Ave.
+  phone: (347) 663-2951
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://mexicocina-brooklyn.foodieordersecure.com/'
+    caviar: 'https://www.trycaviar.com/store/mexicocina-agaveria-brooklyn-981365/en-US'
+    doordash: 'https://www.doordash.com/store/mexicocina-agaveria-brooklyn-981365/en-US'
+    postmates: 'https://postmates.com/merchant/mexicocina-agaveria-brooklyn'
+    seamless: 'https://www.seamless.com/menu/mexicocina-agaveria-708-washington-ave-brooklyn/1136372'
+    grubhub: 'https://www.grubhub.com/restaurant/mexicocina-agaveria-708-washington-ave-brooklyn/1136372'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/mexicocina-agaveria/GDr95U2KSjmDvI-oJF323g'
+  social:
+    instagram: 'https://www.instagram.com/mexicocina_agaveria/'
+  url: 'https://mexicocinanyc.com/brooklyn-agaveria/'
+
+- name: Milk Bar
+  category: cafe
+  address: 620 Vanderbilt Ave.
+  phone: (718) 230-0844
+  supports:
+    - Outdoor Dining
+    - Pickup
+  links:
+    - title: Gift Cards
+      url: 'https://www.milkbarbrooklyn.com/gift-certificates'
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/milk-bar-brunswick-team-relief-fund'
+  social:
+    instagram: 'https://www.instagram.com/milkbarbrooklyn/'
+    facebook: 'https://www.facebook.com/milkbarbrooklyn'
+  services:
+    chownow: 'https://direct.chownow.com/order/26291/locations/38938'
+  url: 'https://www.milkbarbrooklyn.com'
+
+- name: Mille-Feuille
+  category: cafe
+  address: 622 Vanderbilt Ave.
+  phone: (347) 350-8838
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://millefeuillebakery.square.site/'
+  links:
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/CBFYDTWZK7GYQ/order'
+  social:
+    instagram: 'https://www.instagram.com/millefeuillenyc/'
+  url: 'https://www.millefeuille-nyc.com'
+
+- name: Mitchell’s Soul Food
+  category: food-drink
+  address: 617 Vanderbilt Ave.
+  phone: (718) 789-3212
+  supports:
+    - Pickup
+
+- name: Mokbar
+  category: food-drink
+  address: 212 Flatbush Ave.
+  phone: (347) 987-3042
+  supports:
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/feed-our-warriors'
+  services:
+    direct: 'https://www.makeitbutter.com/mokbar/mokbar-ii'
+    caviar: 'https://www.trycaviar.com/store/mokbar-brooklyn-313085/en-US'
+    doordash: 'https://www.doordash.com/store/mokbar-brooklyn-313085/en-US'
+    seamless: 'https://www.seamless.com/menu/mokbar-ii-212-flatbush-ave-brooklyn/396396'
+    grubhub: 'https://www.grubhub.com/restaurant/mokbar-ii-212-flatbush-ave-brooklyn/396396'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/mokbar-park-slope/bzwJfOzHRmOOYaScpluzyA'
+  social:
+    instagram: 'https://www.instagram.com/mokbar_nyc/'
+  url: 'https://www.mokbar.com'
+
+- name: Morgan’s BBQ
+  category: food-drink
+  address: 267 Flatbush Ave.
+  phone: (718) 622-2224
+  status: closed
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  notes: >-
+    Temporarily closed after a kitchen fire.
+  links:
+    - title: GoFundMe for Morgan’s and neighbors
+      url: 'https://www.gofundme.com/f/emergency-fire-response-fund'
+    - title: Gift Cards
+      url: 'https://www.morgansbrooklynbarbecue.com/store/gift-cards/'
+    - title: Merchandise
+      url: 'https://www.morgansbrooklynbarbecue.com/store/'
+  services:
+    caviar: 'https://www.trycaviar.com/store/morgan-s-barbecue-brooklyn-22100/en-US'
+    doordash: 'https://www.doordash.com/store/morgan-s-barbecue-brooklyn-22100/en-US'
+    seamless: 'https://www.seamless.com/menu/morgans-brooklyn-barbecue-267-flatbush-ave-brooklyn/317192'
+    grubhub: 'https://www.grubhub.com/restaurant/morgans-brooklyn-barbecue-267-flatbush-ave-brooklyn/317192'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/morgans-barbeque-prospect-heights/gzrcH1RcQju4pNh82lG1vg'
+  social:
+    instagram: 'https://www.instagram.com/morgansbrooklynbbq/'
+    facebook: 'https://www.facebook.com/morgansbrooklynbbq/'
+  url: 'https://www.morgansbrooklynbarbecue.com'
+
+- name: Mumbai Place
+  category: food-drink
+  address: 655 Vanderbilt Ave.
+  phone: (718) 398-7776
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://www.mumbaiplaceny.com/order'
+    seamless: 'https://www.seamless.com/menu/mumbai-place-655-vanderbilt-ave-brooklyn/334916'
+    grubhub: 'https://www.grubhub.com/restaurant/mumbai-place-655-vanderbilt-ave-brooklyn/334916'
+  url: 'https://www.mumbaiplaceny.com/'
+
+- name: Muse
+  category: food-drink
+  address: 689 Washington Ave.
+  phone: (347) 442-0443
+  services:
+    direct: 'https://www.foodbooking.com/ordering/restaurant/menu?restaurant_uid=62edb62e-e0ac-4440-986d-1ac991199229'
+  social:
+    instagram: 'https://www.instagram.com/musethai/'
+    facebook: 'https://www.facebook.com/musebklyn'
+  url: 'https://musebklyn.com'
+
+- name: Nacho Macho Taco
+  category: food-drink
+  address: 417 Prospect Pl.
+  phone: (718) 622-2727
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/nacho-macho-taco-prospect-pl-417-prospect-pl-brooklyn/302901'
+    grubhub: 'https://www.grubhub.com/restaurant/nacho-macho-taco-prospect-pl-417-prospect-pl-brooklyn/302901'
+  social:
+    instagram: 'https://www.instagram.com/nachomachotacobk/'
+    facebook: 'https://www.facebook.com/NachoMachoTacoBK/'
+  url: 'http://www.nachomachotaco.net'
+
+- name: Nimbooda
+  category: food-drink
+  address: 664 Washington Ave.
+  phone: (718) 622-4616
+  services:
+    direct: 'https://www.ezcater.com/catering/pvt/nimbooda-3'
+  social:
+    instagram: 'https://www.instagram.com/nimboodanyc'
+    facebook: 'https://www.facebook.com/nimboodanyc'
+  url: 'https://nimboodanyc.com/'
+
+- name: Nourish Thai
+  category: food-drink
+  address: 637A Vanderbilt Ave.
+  phone: (718) 789-3981
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://eat.chownow.com/discover/restaurant/11724'
+    caviar: 'https://www.trycaviar.com/store/nourish-brooklyn-132982/en-US'
+    doordash: 'https://www.doordash.com/store/nourish-brooklyn-132982/en-US'
+    seamless: 'https://www.seamless.com/menu/nourish-637a-vanderbilt-ave-brooklyn/429623'
+    grubhub: 'https://www.grubhub.com/restaurant/nourish-637a-vanderbilt-ave-brooklyn/429623'
+  social:
+    instagram: 'https://www.instagram.com/nourishthai/'
+    facebook: 'https://www.facebook.com/283358058777333'
+  url: 'https://www.nourishthai.com'
+
+- name: The Nuaa Table
+  category: food-drink
+  address: 638 Bergen St.
+  phone: (718) 623-6395
+  notes: >-
+    Recently opened royal Thai restaurant with a slow-food focus at the corner of Bergen and Vanderbilt.
+  services:
+    doordash: 'https://www.doordash.com/store/the-nuaa-table-brooklyn-1528637'
+    seamless: 'https://www.seamless.com/menu/the-nuaa-table-638-bergen-st-brooklyn/2569456'
+    grubhub: 'https://www.grubhub.com/restaurant/the-nuaa-table-638-bergen-st-brooklyn/2569456'
+  social:
+    instagram: 'https://www.instagram.com/thenuaatable/'
+    facebook: 'https://www.facebook.com/thenuaatable/'
+  url: 'https://www.thenuaatable.com'
+
+- name: Nûrish
+  category: food-drink
+  address: 637 Washington Ave.
+  phone: (718) 484-1122
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/nurish-637-washington-ave-brooklyn/1540554'
+    grubhub: 'https://www.grubhub.com/restaurant/nurish-637-washington-ave-brooklyn/1540554'
+  social:
+    instagram: 'https://www.instagram.com/nurishbk/'
+  url: 'https://www.nurishbk.com'
+
+- name: 'Ocean’s 8'
+  category: food-drink
+  address: 308 Flatbush Ave.
+  phone: (718) 857-5555
+  supports:
+    - Indoor Seating
+  social:
+    instagram: 'https://www.instagram.com/oceans8billiards/'
+    facebook: 'https://www.facebook.com/Oceans8'
+  url: 'https://www.oceans8ny.com'
+
+- name: Ode to Babel
+  category: food-drink
+  address: 772 Dean St.
+  supports:
+    - Outdoor Seating
+    - Pickup
+   # - Delivery
+  links:
+    - title: Donate
+      url: 'https://www.odetobabel.com/checkout/donate?donatePageId=5fc954f6c0364528a362a6ef'
+    - title: Staff relief fund
+      url: 'https://www.gofundme.com/f/ode-to-babel-team'
+  # services:
+  #   seamless: 'https://www.seamless.com/menu/ode-to-babel-706-washington-ave-new-york/2250322'
+  #   grubhub: 'https://www.grubhub.com/restaurant/ode-to-babel-706-washington-ave-new-york/2250322'
+  social:
+    instagram: 'https://instagram.com/odetobabel'
+  url: 'https://www.odetobabel.com/'
+
+- name: Ogliastro Pizza Bar
+  category: food-drink
+  address: 784 Washington Ave.
+  phone: (718) 789-3700
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/please-help-the-ogliostro-staff'
+  services:
+    seamless: 'https://www.seamless.com/menu/ogliastro-pizza-bar-784-washington-ave-brooklyn/322585'
+    grubhub: 'https://www.grubhub.com/restaurant/ogliastro-pizza-bar-784-washington-ave-brooklyn/322585'
+    slice: 'https://slicelife.com/restaurants/ny/brooklyn/11238/ogliastro-pizza-bar/menu'
+  social:
+    instagram: 'https://www.instagram.com/ogliastro.brooklyn/'
+  url: 'https://www.ogliastropizzabar.com'
+
+- name: Olde Brooklyn Bagel Shoppe
+  category: cafe
+  address: 645 Vanderbilt Ave.
+  phone: (718) 622-6227
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/olde-brooklyn-bagel-shoppe-645-vanderbilt-ave-brooklyn/263151'
+    grubhub: 'https://www.grubhub.com/restaurant/olde-brooklyn-bagel-shoppe-645-vanderbilt-ave-brooklyn/263151'
+  social:
+    instagram: 'https://www.instagram.com/oldebkbagels/'
+    facebook: 'https://www.facebook.com/pages/category/Bagel-Shop/Olde-Brooklyn-Bagel-Shoppe-142360249170445/'
+  url: 'http://www.oldebrooklynbagelshop.com'
+
+- name: Olmsted
+  category: food-drink
+  address: 659 Vanderbilt Ave.
+  phone: (718) 552-2610
+  notes: >-
+    Trading Post is closing in a few short weeks to make way for restarting their private dining room.
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/olmsted-amp-maison-yaki-staff-disaster-relief-fund'
+    - title: Gift Cards
+      url: 'https://ecommerce.custcon.com/Purchase/Select?c=3e6823e0-52c7-4c1b-af3d-1bb13862c508'
+  services:
+    direct: 'https://bbot.menu/olmsteddeliveryorpickup/'
+    seamless: 'https://www.seamless.com/menu/olmsted-659-vanderbilt-ave-brooklyn/2365207'
+    grubhub: 'https://www.grubhub.com/restaurant/olmsted-659-vanderbilt-ave-brooklyn/2365207'
+    resy: 'https://resy.com/cities/ny/olmsted'
+  social:
+    instagram: 'https://www.instagram.com/olmstednyc/'
+    facebook: 'https://www.facebook.com/olmstedNYC/'
+  url: 'http://olmstednyc.com/'
+
+- name: Ovenly
+  category: cafe
+  address: 210 Flatbush Ave.
+  supports:
+    - Outdoor Seating
+    - Pickup
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/ovenly-employee-fund'
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/8BW3A1HN5907S/order'
+  services:
+    direct: 'https://store.oven.ly/'
+    caviar: 'https://www.trycaviar.com/store/ovenly-brooklyn-875245/en-US'
+    doordash: 'https://www.doordash.com/store/ovenly-brooklyn-875245/en-US'
+    goldbelly: 'https://www.goldbelly.com/ovenly'
+  social:
+    instagram: 'https://www.instagram.com/ovenly/'
+  url: 'https://www.oven.ly'
+
+- name: Oxalis
+  address: 791 Washington Ave.
+  phone: (347) 627-8298
+  category: food-drink
+  # notes: >-
+  links:
+    - title: Oxalis Pantry
+      url: 'https://www.oxalispantry.com/'
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/oxalis-employee-relief-fund'
+    - title: Gift Cards
+      url: 'https://www.oxalisnyc.com/store/gift-cards/'
+  supports:
+    - Indoor Dining
+    - Outdoor Dining
+  services:
+    # seamless: 'https://www.seamless.com/menu/oxalis-pantry-791-washington-ave-brooklyn/2454842'
+    # grubhub: 'https://www.grubhub.com/restaurant/oxalis-pantry-791-washington-ave-brooklyn/2454842'
+    # caviar: 'https://www.trycaviar.com/store/OxalisPantry-524932/en-US'
+    resy: 'https://resy.com/cities/ny/oxalisnyc'
+  social:
+    instagram: 'https://www.instagram.com/oxalisnyc/'
+    facebook: 'https://www.facebook.com/oxalisnyc'
+  url: 'https://www.oxalisnyc.com'
+
+- name: Ozakaya
+  category: food-drink
+  notes: >-
+    Coming soon.
+  social:
+    instagram: 'https://www.instagram.com/ozakaya_nyc/'
+
+- name: Patsy’s Pizzeria
+  address: 450 Dean St.
+  phone: (718) 622-2268
+  category: food-drink
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://eat.9fold.me/index.html#/10769'
+    seamless: 'https://www.seamless.com/menu/patsys-pizzeria-450-dean-st-brooklyn/320844'
+    grubhub: 'https://www.grubhub.com/restaurant/patsys-pizzeria-450-dean-st-brooklyn/320844'
+  social:
+    instagram: 'https://www.instagram.com/patsyspizzabk/'
+    facebook: 'https://www.facebook.com/PatsysPizzaBrooklyn/'
+  url: 'https://parkslope.patsyspizza.nyc'
+
+- name: Penny House Cafe
+  category: cafe
+  address: 732 Washington Ave.
+  phone: (347) 240-7281
+  supports:
+    - Pickup
+  social:
+    instagram: 'https://www.instagram.com/pennyhousecafe2006/'
+    facebook: 'https://www.facebook.com/pennyhousecafe2006'
+  url: 'http://www.pennyhousecafe.com'
+
+- name: Piquant
+  category: food-drink
+  address: 259 Flatbush Ave.
+  phone: (718) 484-4114
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  social:
+    instagram: 'https://www.instagram.com/piquantnyc/'
+  url: 'https://www.piquantnyc.com'
+
+- name: Poke Tiky
+  category: food-drink
+  address: 564 Vanderbilt Ave.
+  phone: (347) 365-5214
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://ritual.co/order/poke-tiky-bar-vanderbilt-ave-bergen-st-prospect-heights/6e65'
+    doordash: 'https://www.doordash.com/store/poke-tiky-bar-caffe-brooklyn-1058092/en-US'
+  url: 'https://poketikybar.com/'
+
+- name: Puerto Viejo
+  category: food-drink
+  address: 564 Grand Ave.
+  phone: (718) 398-3758
+  notes: >-
+    Call to order for local delivery.
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    caviar: 'https://www.trycaviar.com/store/puerto-viejo-brooklyn-19731/en-US'
+  social:
+    instagram: 'https://www.instagram.com/puertoviejony/'
+    facebook: 'https://www.facebook.com/PuertoViejoNY'
+  url: 'https://www.puertoviejony.com/'
+
+- name: Private Yoga Lessons
+  last_updated: 3/25/2020
+  category: service
+  phone: (740) 221-3048
+  notes: >-
+    Offering virtual private yoga and meditation lessons via FaceTime, Zoom, and Google Hangouts.
+    <a href="mailto:alli@privateyogasoho.com">alli@privateyogasoho.com</a>
+  url: 'https://www.privateyogasoho.com'
+
+- name: Prospect Butcher Co.
+  category: grocer
+  address: 665 Vanderbilt Ave.
+  phone: (347) 763-9500
+  notes: >-
+    Newly opened local butcher in the former Daly Pie space.
+  links:
+    - title: Gift Cards
+      url: 'https://pl.mxmerchant.com/mxcustomer/d/6c2e1749-d662-4075-9b27-cf0175a6592f/v3'
+  url: 'https://prospectbutcher.co/'
+
+- name: R&D Foods
+  category: grocer
+  address: 602 Vanderbilt Ave.
+  phone: (347) 915-1196
+  supports:
+    - Outdoor Seating
+    - Pickup
+    - Delivery
+  links:
+    - title: 'Gift Cards & Merch'
+      url: 'https://www.rdfoodsbklyn.com/swag-shop'
+  services:
+    chownow: 'https://ordering.chownow.com/order/11145/locations'
+  social:
+    instagram: 'https://www.instagram.com/rdfoods/'
+    facebook: 'https://www.facebook.com/RDFoods'
+  url: 'https://www.rdfoodsbklyn.com/'
+
+- name: Ruby Kitchen
+  category: food-drink
+  address: 162 Park Pl.
+  phone: (718) 789-4633
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/ruby-kitchen-162-park-pl-brooklyn/66954'
+    grubhub: 'https://www.grubhub.com/restaurant/ruby-kitchen-162-park-pl-brooklyn/66954'
+    postmates: 'https://postmates.com/merchant/ruby-kitchen-brooklyn'
+
+- name: Shaka Shaka Tiki/Companion Cafe
+  category: food-drink
+  address: 64 Sixth Ave.
+  phone: (347) 689-3184
+  links:
+    - title: 'Online Orders: Companion&nbsp;Cafe'
+      url: 'https://www.companioncafeordering.com/'
+    - title: 'Online Orders: Shaka&nbsp;Shaka&nbsp;Tiki'
+      url: 'https://shakashakatiki.square.site/'
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/ED4WJ2F6HECQZ/order'
+  social:
+    instagram: 'https://www.instagram.com/shakashakatiki/'
+  url: 'https://www.companioncafebk.com'
+
+- name: Shane’s Brooklyn
+  category: food-drink
+  address: 794 Washington Ave.
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    doordash: 'https://www.doordash.com/store/shanes-brooklyn-brooklyn-179024/en-US'
+    postmates: 'https://postmates.com/merchant/cafe-shane-on-washington-brooklyn'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/shanes-brooklyn/TsKwjyqQSaGcQNr4An9WBg'
+  social:
+    instagram: 'https://www.instagram.com/shanes_brooklyn/'
+
+- name: Sharlene’s Bar
+  category: food-drink
+  address: 353 Flatbush Ave.
+  supports:
+    - Outdoor Seating
+    - Takeout
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/sharlene039s-bar'
+  social:
+    instagram: 'https://www.instagram.com/sharlenesbar/'
+
+- name: Sit & Wonder
+  category: cafe
+  address: 688 Washington Ave.
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/for-our-amazing-baristas'
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/7Z9GD4FCSS1V4/order'
+  social:
+    instagram: 'https://www.instagram.com/sitandwondercoffeeshop/'
+  url: 'http://sitandwonder.net/index.html'
+
+- name: The Sly Rose
+  status: closed
+  category: food-drink
+  address: 663 Washington Ave.
+  phone: (929) 554-3064
+  supports:
+    - Pickup
+    - Delivery
+  notes: >-
+    New Italian restaurant run by the folks at Stocked, currently on a summer hiatus.
+  services:
+    toast: 'https://www.toasttab.com/theslyrose/v3'
+  social:
+    instagram: 'https://www.instagram.com/theslyrose/'
+  url: 'https://www.theslyrose.com'
+
+- name: Smokey Vale
+  category: store
+  address: 575 Vanderbilt Ave.
+  phone: (347) 240-1133
+  notes: >-
+    Black-owned botique, barber shop and gallery space.
+  social:
+    instagram: 'https://www.instagram.com/smokey_vale/'
+  url: 'http://smokeyvale.com'
+
+- name: The Social
+  status: closed
+  category: dessert
+  address: 816 Washington Ave.
+  notes: >-
+    New ice cream and doughnut shop coming this summer from the founders of Ample Hills.
+  social:
+    instagram: 'https://www.instagram.com/thesocialbrooklyn/'
+    facebook: 'https://www.facebook.com/theSocialBrooklyn/'
+  url: 'https://www.thesocialbrooklyn.com'
+
+- name: Sofreh
+  category: food-drink
+  address: 75 St. Marks Ave
+  supports:
+    - Outdoor Dining
+    - Pickup
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/sofreh-employee-emergency-relief-fund'
+    - title: Gift Cards
+      url: 'https://www.sofrehnyc.com/giftcards'
+  services:
+    chownow: 'https://direct.chownow.com/order/26544/locations/39340'
+    upserve: 'https://app.upserve.com/s/sofreh-nyc-brooklyn'
+    resy: 'https://resy.com/cities/ny/sofreh'
+  social:
+    instagram: 'https://www.instagram.com/sofreh_brooklyn/'
+  url: 'https://www.sofrehnyc.com'
+
+- name: Specific Gravity
+  category: store
+  address: 613 Vanderbilt Ave.
+  phone: (347) 291-1766
+  notes: >-
+    Open by appointment. <a href="mailto:shop@specificgravitynyc.com">Email</a>
+    or call to schedule.
+  links:
+    - title: Gift Cards
+      url: 'https://specificgravitynyc.com/products/gift-card-1'
+  social:
+    instagram: 'https://www.instagram.com/specific_gravity/'
+    facebook: 'https://www.facebook.com/SpecificGravityNYC/'
+  url: 'https://specificgravitynyc.com'
+
+- name: Stocked Cafe & Burgers
+  category: food-drink
+  address: 663 Washington Ave.
+  phone: (718) 872-5304
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  notes: >-
+    The cafe and burger spot has conslidated on Washington Ave.
+  services:
+    toast: 'https://www.toasttab.com/stocked-cafe-burgers/v3'
+  social:
+    instagram: 'https://www.instagram.com/stockedbrooklyn/'
+  url: 'https://www.stockedbrooklyn.com'
+
+- name: Sugarcane
+  category: food-drink
+  address: 238 Flatbush Ave.
+  phone: (718) 230-3954
+  notes: Call ahead to order.
+  social:
+    instagram: 'https://www.instagram.com/sugarcane_restaurant/'
+
+- name: Sunshine & Co.
+  category: food-drink
+  address: 780 Washington Ave.
+  phone: (347) 750-5275
+  supports:
+    - Outdoor Dining
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/sunshine-co-staff'
+  social:
+    instagram: 'https://www.instagram.com/sunshinecobk/'
+  url: 'http://www.sunshinecobk.com'
+
+- name: Sweet Chick
+  category: food-drink
+  address: 341 Flatbush Ave.
+  phone: (718) 484-7724
+  supports:
+    - Outdoor Dining
+    - Pickup
+    - Delivery
+  services:
+    chownow: 'https://direct.chownow.com/order/25827/locations/38171'
+    seamless: 'https://www.seamless.com/menu/sweet-chick-prospect-heights-341-flatbush-ave-brooklyn/1685999'
+    grubhub: 'https://www.grubhub.com/restaurant/sweet-chick-prospect-heights-341-flatbush-ave-brooklyn/1685999'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/sweet-chick-flatbush/GQauqkOlQCikYdNl20DTTA'
+  social:
+    instagram: 'https://www.instagram.com/sweetchicklife/'
+    facebook: 'https://www.facebook.com/SweetChickLife'
+  url: 'https://www.sweetchick.com'
+
+- name: Sweet Polly
+  category: food-drink
+  address: 71 Sixth Ave.
+  phone: (718) 484-9600
+  supports:
+    - Outdoor Seating
+    - Pickup
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/sweet-polly-team-relief-fund'
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/89TMFJQFPZE0N/order'
+  services:
+    upserve: 'https://app.upserve.com/s/sweet-polly-brooklyn'
+    resy: 'https://resy.com/cities/ny/sweet-polly'
+  social:
+    instagram: 'https://www.instagram.com/sweetpollynyc/'
+    facebook: 'https://www.facebook.com/sweetpollynyc/'
+  url: 'http://www.sweetpollynyc.com'
+
+- name: Tiny’s Cantina
+  category: food-drink
+  address: 229 Flatbush Ave.
+  notes: >-
+    New restaurant by the Morgan's BBQ team in the former Shorty’s space.
+  social:
+    instagram: 'https://instagram.com/tinyscantina'
+  url: 'https://www.tinyscantina.com/'
+
+- name: Tom’s Restaurant
+  category: food-drink
+  address: 782 Washington Ave.
+  phone: (718) 636-9738
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    seamless: 'https://www.seamless.com/menu/toms-restaurant-782-washington-ave-brooklyn/297390'
+    grubhub: 'https://www.grubhub.com/restaurant/toms-restaurant-782-washington-ave-brooklyn/297390'
+  social:
+    instagram: 'https://www.instagram.com/tomsbrooklyn/'
+  url: 'https://tomsbrooklyn.com'
+
+- name: Tooker Alley
+  category: food-drink
+  address: 793 Washington Ave.
+  supports:
+    - Pickup
+    - Outdoor Dining
+  social:
+    instagram: 'https://www.instagram.com/tookeralley/'
+
+- name: Udom Thai
+  category: food-drink
+  address: 661 Washington Ave.
+  phone: (718) 622-8424
+  services:
+    direct: 'https://www.opendining.net/menu/4fd8ca07000d972008000172'
+  supports:
+    - Pickup
+    - Delivery
+  social:
+    instagram: 'https://www.instagram.com/udomthai/'
+    facebook: 'https://www.facebook.com/UdomThai'
+  url: 'https://www.udomthai.com'
+
+- name: Underhill Greek Eatery
+  category: food-drink
+  address: 760 Dean St.
+  phone: (718) 484-3744
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    caviar: 'https://www.trycaviar.com/m/underhill-cafe-and-grill-10596'
+    doordash: 'https://www.doordash.com/store/underhill-cafe-and-grill-brooklyn-312894/en-US'
+    postmates: 'https://postmates.com/merchant/underhill-cafe-grill-brooklyn'
+    seamless: 'https://www.seamless.com/menu/underhill-cafe-and-grill-760-dean-st-brooklyn/768940'
+    grubhub: 'https://www.grubhub.com/restaurant/underhill-cafe-and-grill-760-dean-st-brooklyn/768940'
+    uber_eats: 'https://www.ubereats.com/new-york/food-delivery/underhill-cafe-%26-grill/a9MCFJrEQKy95yjuR4e4Rg'
+  social:
+    instagram: 'https://www.instagram.com/underhillgreekeatery/'
+    facebook: 'https://www.facebook.com/underhillbrooklyn/'
+  url: 'https://underhillbrooklyn.com/'
+
+- name: Union Market
+  category: grocer
+  address: 342 Flatbush Ave.
+  phone: (718) 663-6560
+  social:
+    instagram: 'https://www.instagram.com/unionmarket/'
+    facebook: 'https://www.facebook.com/unionmarketNYC/'
+  url: 'https://unionmarket.com'
+
+- name: Unnameable Books
+  category: store
+  address: 600 Vanderbilt Ave.
+  phone: (718) 789-1534
+  links:
+    - title: Online Store
+      url: 'https://unnameablebooks.square.site'
+  notes: >-
+    Local shop that buys and sells secondhand books.
+  social:
+    instagram: 'https://www.instagram.com/unnameablebooks/'
+    facebook: 'https://www.facebook.com/unnameable'
+  url: 'http://unnameablebooks.blogspot.com'
+
+- name: Van Leeuwen Ice Cream
+  category: dessert
+  address: 550 Vanderbilt Ave
+  phone: (347) 240-7453
+  links:
+    - title: Gift Cards
+      url: 'https://squareup.com/gift/FR6ZMQGP6CJ1S/order'
+  services:
+    caviar: 'https://www.trycaviar.com/store/van-leeuwen-ice-cream-brooklyn-773893/en-US'
+    doordash: 'https://www.doordash.com/store/van-leeuwen-ice-cream-brooklyn-773893/en-US'
+    postmates: 'https://postmates.com/merchant/van-leeuwen-ice-cream-brooklyn'
+    uber_eats: 'https://www.ubereats.com/en-US/new-york/food-delivery/van-leeuwen-artisan-ice-cream-prospect-heights/lRdl_U-mS8yow9R-xiO2ZQ/'
+    goldbelly: 'https://www.goldbelly.com/van-leeuwen-artisan-ice-cream'
+  social:
+    instagram: 'https://www.instagram.com/vanleeuwenicecream/'
+    facebook: 'https://www.facebook.com/vanleeuwenicecream/'
+  url: 'https://vanleeuwenicecream.com/location/prospect-heights/'
+
+- name: Vanderbilt Wine Merchants
+  category: wine-liquor
+  address: 573 Vanderbilt Ave.
+  phone: (718) 398-1800
+  notes: >-
+    Free neighborhood delivery within a one-mile radius
+    Monday through Saturday (3pm cutoff for same day delivery).
+  social:
+    instagram: 'https://instagram.com/vanderbiltwine'
+    facebook: 'https://www.facebook.com/VanderbiltWine'
+  url: 'https://vanderbilt.wine'
+
+- name: Weather Up
+  category: food-drink
+  address: 589 Vanderbilt Ave.
+  supports:
+    - Outdoor Seating
+    - Pickup
+    - Delivery
+  notes: >-
+    Classic craft cocktails, now offering delivery.
+  links:
+    - title: Staff Relief Fund
+      url: 'https://www.gofundme.com/f/weather-up-staff-relief'
+  services:
+    seamless: 'https://www.seamless.com/menu/weather-up-589-vanderbilt-ave-brooklyn/2486038'
+    grubhub: 'https://www.grubhub.com/restaurant/weather-up-589-vanderbilt-ave-brooklyn/2486038'
+  social:
+    instagram: 'https://www.instagram.com/weatherupbars/'
+  url: 'http://www.weatherupnyc.com/'
+
+- name: White Tiger
+  category: food-drink
+  address: 601 Vanderbilt Ave.
+  phone: (718) 552-2272
+  services:
+    toast: 'https://www.toasttab.com/white-tiger/v3'
+    doordash: 'https://www.doordash.com/store/white-tiger-brooklyn-132915/en-US'
+    seamless: 'https://www.seamless.com/menu/white-tiger-601-vanderbilt-ave-brooklyn/1981045'
+    grubhub: 'https://www.grubhub.com/restaurant/white-tiger-601-vanderbilt-ave-brooklyn/1981045'
+  social:
+    instagram: 'https://www.instagram.com/whitetigerbklyn/'
+    facebook: 'https://www.facebook.com/White-Tiger-449227641948568/'
+  url: 'http://www.whitetiger.nyc'
+
+- name: Wine Exchange
+  category: wine-liquor
+  address: 595 Vanderbilt Ave.
+  phone: (718) 783-7500
+  notes: >-
+    Five people at a time inside.
+  supports:
+    - Pickup
+    - Delivery
+  services:
+    direct: 'https://wineexchangebkn.com/'
+  social:
+    instagram: 'https://www.instagram.com/wineexchangebkn/'
+  url: 'https://wineexchangebkn.com/'
+
+- name: The Winey Neighbor
+  category: wine-liquor
+  address: 679 Washington Ave.
+  phone: (347) 715-6693
+  services:
+    direct: 'https://wineyneighbor.com/#&StoreFrontLocationHash=%23%2Fwidget%2F5a6f49faf4a6613ee3696dbb%2Fcontainers'
+  social:
+    instagram: 'https://www.instagram.com/wineyneighbor/'
+    facebook: 'https://www.facebook.com/wineyneighbor'
+  url: 'https://wineyneighbor.com'
+
+- name: Zaytoons
+  category: food-drink
+  address: 594 Vanderbilt Ave.
+  phone: (718) 230-3200
+  services:
+    direct: 'https://zaytoons.foodieordersecure.com/'
+    caviar: 'https://www.trycaviar.com/store/zaytoons-brooklyn-1048506/en-US'
+    doordash: 'https://www.doordash.com/store/zaytoons-brooklyn-1048506/en-US'
+  social:
+    instagram: 'https://www.instagram.com/zaytoonsrestaurant/'
+    facebook: 'https://www.facebook.com/zaytoonsrestaurant/'
+  url: 'https://zaytoons.com'

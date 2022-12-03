@@ -1,0 +1,30 @@
+- name: a1
+  heading: 'Neighborhood Organizations'
+  order: 1
+- name: food-drink
+  heading: 'Bars & Restaurants'
+  order: 2
+- name: cafe
+  heading: Cafes
+  order: 3
+- name: deli
+  heading: Bodegas
+  order: 4
+- name: dessert
+  heading: Desserts
+  order: 5
+- name: grocer
+  heading: Grocers
+  order: 6
+- name: gym
+  heading: Gyms
+  order: 7
+- name: service
+  heading: Services
+  order: 8
+- name: store
+  heading: Stores
+  order: 9
+- name: wine-liquor
+  heading: 'Wine & Liquor Stores'
+  order: 10

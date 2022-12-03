@@ -1,0 +1,14 @@
+# Setup
+title: Help Prospect Heights
+url: https://prospectheightsbk.com
+
+# Custom vars
+github:
+  repo: https://github.com/irace/prospectheightsbk.com
+
+sass:
+  # Where you keep your scss files
+  sass_dir: /
+  # Where SASS should look for other SCSS
+  load_paths:
+    - node_modules/
