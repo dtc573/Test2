@@ -91,8 +91,8 @@
 				var singShipping = Math.floor( numShipping / cartItems.length );
 				
 				$form.attr( "action", self.paypalURL );
-				$form.find( "inpatch[name='business']" ).val( self.paypalBusinessEmail );
-				$form.find( "inpatch[name='currency_code']" ).val( self.paypalCurrency );
+				$form.find( "input[name='business']" ).val( self.paypalBusinessEmail );
+				$form.find( "input[name='currency_code']" ).val( self.paypalCurrency );
 				
 				for( var i = 0; i < cartItems.length; ++i ) {
 					var cartItem = cartItems[i];
@@ -101,15 +101,15 @@
 					var price = cartItem.price;
 					var qty = cartItem.qty;
 					
-					$( "<div/>" ).html( "<inpatch type='hidden' name='quantity_" + n + "' value='" + qty + "'/>" ).
+					$( "<div/>" ).html( "<input type='hidden' name='quantity_" + n + "' value='" + qty + "'/>" ).
 					insertBefore( "#paypal-btn" );
-					$( "<div/>" ).html( "<inpatch type='hidden' name='item_name_" + n + "' value='" + name + "'/>" ).
+					$( "<div/>" ).html( "<input type='hidden' name='item_name_" + n + "' value='" + name + "'/>" ).
 					insertBefore( "#paypal-btn" );
-					$( "<div/>" ).html( "<inpatch type='hidden' name='item_number_" + n + "' value='SKU " + name + "'/>" ).
+					$( "<div/>" ).html( "<input type='hidden' name='item_number_" + n + "' value='SKU " + name + "'/>" ).
 					insertBefore( "#paypal-btn" );
-					$( "<div/>" ).html( "<inpatch type='hidden' name='amount_" + n + "' value='" + self._formatNumber( price, 2 ) + "'/>" ).
+					$( "<div/>" ).html( "<input type='hidden' name='amount_" + n + "' value='" + self._formatNumber( price, 2 ) + "'/>" ).
 					insertBefore( "#paypal-btn" );
-					$( "<div/>" ).html( "<inpatch type='hidden' name='shipping_" + n + "' value='" + self._formatNumber( singShipping, 2 ) + "'/>" ).
+					$( "<div/>" ).html( "<input type='hidden' name='shipping_" + n + "' value='" + self._formatNumber( singShipping, 2 ) + "'/>" ).
 					insertBefore( "#paypal-btn" );
 					
 				}
@@ -252,7 +252,7 @@
 						var product = item.product;
 						var price = this.currency + " " + item.price;
 						var qty = item.qty;
-						var html = "<tr><td class='pname'>" + product + "</td>" + "<td class='pqty'><inpatch type='text' value='" + qty + "' class='qty'/></td>";
+						var html = "<tr><td class='pname'>" + product + "</td>" + "<td class='pqty'><input type='text' value='" + qty + "' class='qty'/></td>";
 					    	html += "<td class='pprice'>" + price + "</td><td class='pdelete'><a href='' data-product='" + product + "'>&times;</a></td></tr>";
 					
 						$tableCartBody.html( $tableCartBody.html() + html );
@@ -566,22 +566,22 @@
 			
 		  $visibleSet.each(function() {
 			
-			$( this ).find( ":inpatch" ).each(function() {
-				var $inpatch = $( this );
-				var type = $inpatch.data( "type" );
-				var msg = $inpatch.data( "message" );
+			$( this ).find( ":input" ).each(function() {
+				var $input = $( this );
+				var type = $input.data( "type" );
+				var msg = $input.data( "message" );
 				
 				if( type == "string" ) {
-					if( $inpatch.val() == fields.str.value ) {
+					if( $input.val() == fields.str.value ) {
 						$( "<span class='message'/>" ).text( msg ).
-						insertBefore( $inpatch );
+						insertBefore( $input );
 						
 						valid = false;
 					}
 				} else {
-					if( !fields.expression.value.test( $inpatch.val() ) ) {
+					if( !fields.expression.value.test( $input.val() ) ) {
 						$( "<span class='message'/>" ).text( msg ).
-						insertBefore( $inpatch );
+						insertBefore( $input );
 						
 						valid = false;
 					}

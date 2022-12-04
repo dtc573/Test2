@@ -346,7 +346,7 @@ form.add-to-cart p .btn
 }
 
 
-form inpatch.qty {
+form input.qty {
 	width: 60px;
 	border: 2px solid #eee;
 	font: 1.5em 'PT Serif', serif;
@@ -774,7 +774,7 @@ body#checkout-page #site-info {
 	text-align: left;
 }
 
-#checkout-order-form inpatch[type="text"] {
+#checkout-order-form input[type="text"] {
 	width: 200px;
 	display: block;
 	background: #fff;
