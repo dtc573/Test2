@@ -1,1613 +1,2598 @@
 <!DOCTYPE html>
 <html>
+
 <head>
-<title>Hyperlocal Businesses</title>
-<meta charset="utf-8" />
-<meta name="viewpoint" content="width=device-width,initial-scal=1.0">
-<meta http-equip="X-UA-compatible" content="ie=edge">
-<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
-<script type="text/javascript" src="jquery.store.js"></script>
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
-<style>
-	table, th, td {
-	  border:1px solid black;
-	}
+	<title>Hyperlocal Businesses</title>
+	<meta charset="utf-8" />
+	<meta name="viewpoint" content="width=device-width,initial-scal=1.0">
+	<meta http-equip="X-UA-compatible" content="ie=edge">
+	<link rel="stylesheet" href="style.css" media="screen" type="text/css" />
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/2.0.3/jquery.min.js"></script>
+	<script type="text/javascript" src="jquery.store.js"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+	<style>
+		table,
+		th,
+		td {
+			border: 1px solid black;
+		}
 	</style>
 
 </head>
 
 <body>
 
-<section id="nav-bar">
+	<section id="nav-bar">
 		<nav class="navbar navbar-expand-lg navbar-light">
-  		
-  		<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-    			<span class="navbar-toggler-icon"></span>
-  		</button>
-  		<div class="topnav">
-			
-  		<a style="color:black;" class="active" href="#home"><img src="images/logo.png"></a>
-		</div> 
-  		<div class="collapse navbar-collapse" id="navbarNav">
-  		
-    		<ul class="navbar-nav ml-auto">
-    		 
-    		 <li class="nav-item">
-        		<a style="color:black;" class="nav-link" href="#Districts">Localities</a>
-      		</li>
-      		<li class="nav-item">
-        		<a style="color:black;" class="nav-link" href="cart.html">Cart</a>
-			
-      		</li>
-      		
-      		
-      		<li class="nav-item">
-        		<a style="color:black;" class="nav-link" href="#about">About Us</a>
-      		</li>
-      		
-      		<li class="nav-item">
-        		<a style="color:black;" class="nav-link" href="#services">Our Services</a>
-      		</li>
-      		
-      		<li class="nav-item">
-        		<a style="color:black;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our Team</a>
-      		</li>
-      		<li class="nav-item">
-        		<a style="color:black;" class="nav-link" href="#contact">Contact</a>
-      		</li>
-      		
-      		
-    		</ul>
-  		</div>
+
+			<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+				aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+				<span class="navbar-toggler-icon"></span>
+			</button>
+			<div class="topnav">
+
+				<a style="color:black;" class="active" href="#home"><img src="images/logo.png"></a>
+			</div>
+			<div class="collapse navbar-collapse" id="navbarNav">
+
+				<ul class="navbar-nav ml-auto">
+
+					<li class="nav-item">
+						<a style="color:black;" class="nav-link" href="#Districts">Localities</a>
+					</li>
+					<li class="nav-item">
+						<a style="color:black;" class="nav-link" href="cart.html">Cart</a>
+
+					</li>
+
+
+					<li class="nav-item">
+						<a style="color:black;" class="nav-link" href="#about">About Us</a>
+					</li>
+
+					<li class="nav-item">
+						<a style="color:black;" class="nav-link" href="#services">Our Services</a>
+					</li>
+
+					<li class="nav-item">
+						<a style="color:black;" class="nav-link" href="#team" tabindex="-1" aria-disabled="true">Our
+							Team</a>
+					</li>
+					<li class="nav-item">
+						<a style="color:black;" class="nav-link" href="#contact">Contact</a>
+					</li>
+
+
+				</ul>
+			</div>
 		</nav>
 
 
-	<div class="slider">
-		<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
-  <div class="carousel-inner">
-    <div class="carousel-item active" data-interval="10000">
-      <img src="images/image1.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
-    </div>
-    <div class="carousel-item" data-interval="2000">
-      <img src="images/image2.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
-    </div>
-    <div class="carousel-item">
-      <img src="images/image4.webp" class="d-block w-100" alt="..." style="width:auto;height:800px;">
-    </div>
-  </div>
-  <a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
-    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
-    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
-</div>
-	</div>
-		
-	<div class="Districts" id="Districts">
-	<table id="featured-categories" style="width:100%">
-		<tr>
-		  <th>Localities</th>
-		  </tr>
-		<tr>
-		  <td><li class="Kasaragod">
-					  <a style="color:black;" class="nav-link" href="#Kasaragod">T. Nagar</a>
-					</li></td>
-		   </tr>
-		  <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Kannur">Kodambakkam</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="Kozhikode">
-					  <a style="color:black;" class="nav-link" href="#Kozhikode">Velachery</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Kollam">Nungambakkam</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Kottayam">K. K. Nagar</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Malappuram">Ashok Nagar</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Wayanad">Anna Salai</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Ernakulam">Aminjikarai</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Palakkad">Pushpa Nagar</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Thrissur">Royapuram</a>
-					</li></td></tr>
-					 <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Idukki">Thiruvallikeni</a>
-					</li></td></tr>
-	   <tr><td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Alappuzha">Mambalam</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Pathanamthitta">Adyar</a>
-					</li></td></tr>
-	   <tr>
-	  <td><li class="nav-item">
-					  <a style="color:black;" class="nav-link" href="#Trivandrum ">Besant Nagar</a>
-					</li></td></tr>
-	  </tr>
-	  </table>
-	</div>
-
-	
-	
-	
-<section class="Kasaragod">
-<div id="site">
-	<div class="container">
-		<div class="title-box" id="Kasaragod">
-		<h2>T. Nagar</h2>
+		<div class="slider">
+			<div id="carouselExampleInterval" class="carousel slide" data-ride="carousel">
+				<div class="carousel-inner">
+					<div class="carousel-item active" data-interval="10000">
+						<img src="images/image1.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+					</div>
+					<div class="carousel-item" data-interval="2000">
+						<img src="images/image2.jpg" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+					</div>
+					<div class="carousel-item">
+						<img src="images/image4.webp" class="d-block w-100" alt="..." style="width:auto;height:800px;">
+					</div>
+				</div>
+				<a class="carousel-control-prev" href="#carouselExampleInterval" role="button" data-slide="prev">
+					<span class="carousel-control-prev-icon" aria-hidden="true"></span>
+					<span class="sr-only">Previous</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselExampleInterval" role="button" data-slide="next">
+					<span class="carousel-control-next-icon" aria-hidden="true"></span>
+					<span class="sr-only">Next</span>
+				</a>
+			</div>
 		</div>
-		<div class="row">
-			<div class="col-md-3">
-			<div class="product-top">
-				<img src="images/COIR.jpeg">
-				<div class="overlay-right">
-					<button type="button" class="btn btn-secondary" title="Quick Shop">
-					<i class="fa fa-eye"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-					<i class="fa fa-heart-o"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Cart">
-					<i class="fa fa-shopping-cart"></i>
-					</button>
-				</div>
-			</div>
-			
-			
-			<div class="product-bottom text-center">
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-half-o"></i>
-			<h3>Toys</h3>
-			<div class="product-description" data-name="Toys" data-price="20">
-				
-				<p class="product-price">Rs.20/toy</p>
-				<form class="add-to-cart" action="cart.html" method="post">
-					<p>
-						<a href="https://goo.gl/maps/bwJuR6whfEnXy4Ym6">Location</a>
-					</p>
-					
-							<div>
-								<label for="qty-2">Quantity</label>
-								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-							</div>
-							<p><input type="submit" value="Add to cart" class="btn" /></p>
-						</form>
-						
-			</div>
-			</div>
-			</div>
 
-			
-			<div class="col-md-3">
-			<div class="product-top">
-				<img src="images/HANDLOOM.png">
-				<div class="overlay-right">
-					<button type="button" class="btn btn-secondary" title="Quick Shop">
-					<i class="fa fa-eye"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-					<i class="fa fa-heart-o"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Cart">
-					<i class="fa fa-shopping-cart"></i>
-					</button>
-				</div>
-			</div>
-			
-			
-			<div class="product-bottom text-center">
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-half-o"></i>
-			<h3>HANDLOOM</h3>
-			<div class="product-description" data-name="Handloom" data-price="300">
-				
-				<p class="product-price">Rs.300</p>
-				<form class="add-to-cart" action="cart.html" method="post">
-					<p>
-						<a href="https://goo.gl/maps/a7oSN6U2tWMr23q78">Location</a>
-					</p>
-							<div>
-								
-								<label for="qty-2">Quantity</label>
-								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-							</div>
-							<p><input type="submit" value="Add to cart" class="btn" /></p>
-						</form>
-						
-			</div>
-			</div>
-		    </div>
-
-
-	</div>
-</div>
-</section>
-	
-	
-<section class="Kannur">
-<div id="site">
-	<div class="container">
-		<div class="title-box" id="Kannur">
-		<h2>Kodambakkam</h2>
+		<div class="Districts" id="Districts">
+			<table id="featured-categories" style="width:100%">
+				<tr>
+					<th>Localities</th>
+				</tr>
+				<tr>
+					<td>
+						<li class="Kasaragod">
+							<a style="color:black;" class="nav-link" href="#Kasaragod">T. Nagar</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Kannur">Kodambakkam</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="Kozhikode">
+							<a style="color:black;" class="nav-link" href="#Kozhikode">Velachery</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Kollam">Nungambakkam</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Kottayam">K. K. Nagar</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Malappuram">Ashok Nagar</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Wayanad">Anna Salai</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Ernakulam">Aminjikarai</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Palakkad">Pushpa Nagar</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Thrissur">Royapuram</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Idukki">Thiruvallikeni</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Alappuzha">Mambalam</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Pathanamthitta">Adyar</a>
+						</li>
+					</td>
+				</tr>
+				<tr>
+					<td>
+						<li class="nav-item">
+							<a style="color:black;" class="nav-link" href="#Trivandrum ">Besant Nagar</a>
+						</li>
+					</td>
+				</tr>
+				</tr>
+			</table>
 		</div>
-		<div class="row">
-			<div class="col-md-3">
-			<div class="product-top">
-				<img src="images/HANDICRAFTS.jpeg">
-				<div class="overlay-right">
-					<button type="button" class="btn btn-secondary" title="Quick Shop">
-					<i class="fa fa-eye"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-					<i class="fa fa-heart-o"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Cart">
-					<i class="fa fa-shopping-cart"></i>
-					</button>
-				</div>
-			</div>
-			
-			
-			<div class="product-bottom text-center">
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-half-o"></i>
-			<h3>Handicrafts</h3>
-			<div class="product-description" data-name="Handricrafts" data-price="299">
-				
-				<p class="product-price">Rs.299</p>
-				<form class="add-to-cart" action="cart.html" method="post">
-					<p>
-						<a href="https://goo.gl/maps/tHEbeuZ9k69Xz6f59">Location</a>
-					</p>
-							<div>
-								
-								<label for="qty-2">Quantity</label>
-								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-							</div>
-							<p><input type="submit" value="Add to cart" class="btn" /></p>
-						</form>
-						
-			</div>
-			</div>
-			</div>
 
-			
-			<div class="col-md-3">
-			<div class="product-top">
-				<img src="images/HL.png">
-				<div class="overlay-right">
-					<button type="button" class="btn btn-secondary" title="Quick Shop">
-					<i class="fa fa-eye"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-					<i class="fa fa-heart-o"></i>
-					</button>
-					
-					<button type="button" class="btn btn-secondary" title="Add to Cart">
-					<i class="fa fa-shopping-cart"></i>
-					</button>
-				</div>
-			</div>
-			
-			
-			<div class="product-bottom text-center">
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star"></i>
-			<i class="fa fa-star-half-o"></i>
-			<h3>Handloom</h3>
-			
-			<div class="product-description" data-name="Handloom" data-price="499">
-				
-				<p class="product-price">Rs.499</p>
-				<form class="add-to-cart" action="cart.html" method="post">
-					<p>
-						<a href="https://goo.gl/maps/sey4TVxXAuhsGYxk6">Location</a>
-					</p>
-							<div>
-								
-								<label for="qty-2">Quantity</label>
-								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-							</div>
-							<p><input type="submit" value="Add to cart" class="btn" /></p>
-						</form>
-						
-			</div>
-			</div>
-			</div>
 
-		
-			<section class="Kozhikode">
-				<div id="site">
-					<div class="container">
-						<div class="title-box" id="Kozhikode">
-						<h2>Velachery</h2>
-						</div>
-						<div class="row">
-							<div class="col-md-3">
+
+
+		<section class="Kasaragod">
+			<div id="site">
+				<div class="container">
+					<div class="title-box" id="Kasaragod">
+						<h2>T. Nagar</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
 							<div class="product-top">
-								<img src="images/HALWA.jpg">
+								<img src="images/COIR.jpeg">
 								<div class="overlay-right">
 									<button type="button" class="btn btn-secondary" title="Quick Shop">
-									<i class="fa fa-eye"></i>
+										<i class="fa fa-eye"></i>
 									</button>
-									
+
 									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-									<i class="fa fa-heart-o"></i>
+										<i class="fa fa-heart-o"></i>
 									</button>
-									
+
 									<button type="button" class="btn btn-secondary" title="Add to Cart">
-									<i class="fa fa-shopping-cart"></i>
+										<i class="fa fa-shopping-cart"></i>
 									</button>
 								</div>
 							</div>
-							
-							
+
+
 							<div class="product-bottom text-center">
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star-half-o"></i>
-							<h3>HALWA</h3>
-							<div class="product-description" data-name="HALWA" data-price="60">
-								
-								<p class="product-price">Rs.60/kg</p>
-								<form class="add-to-cart" action="cart.html" method="post">
-									<p><a href="https://goo.gl/maps/tU5rVACakYfU9FnK7">Location</a></p>
-											<div>
-												
-												<label for="qty-2">Quantity</label>
-												<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-											</div>
-											<p><input type="submit" value="Add to cart" class="btn" /></p>
-										</form>
-										
-							</div>
-							</div>
-							</div>
-				
-							
-							<div class="col-md-3">
-							<div class="product-top">
-								<img src="images/SPICES.jpeg">
-								<div class="overlay-right">
-									<button type="button" class="btn btn-secondary" title="Quick Shop">
-									<i class="fa fa-eye"></i>
-									</button>
-									
-									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-									<i class="fa fa-heart-o"></i>
-									</button>
-									
-									<button type="button" class="btn btn-secondary" title="Add to Cart">
-									<i class="fa fa-shopping-cart"></i>
-									</button>
-								</div>
-							</div>
-							
-							
-							<div class="product-bottom text-center">
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star"></i>
-							<i class="fa fa-star-half-o"></i>
-							<h3>Spices</h3>
-							
-							<div class="product-description" data-name="Spices" data-price="100">
-								
-								<p class="product-price">Rs.100/gm</p>
-								<form class="add-to-cart" action="cart.html" method="post">
-									<p><a href="https://goo.gl/maps/HydMSG9BR3T4aZfv5">Location</a></p>
-											<div>
-												
-												<label for="qty-2">Quantity</label>
-												<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-											</div>
-											<p><input type="submit" value="Add to cart" class="btn" /></p>
-										</form>
-										
-							</div>
-							</div>
-							</div>
-						
-							<section class="Kottayam">
-								<div id="site">
-									<div class="container">
-										<div class="title-box" id="Kottayam">
-										<h2>K. K. Nagar</h2>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+								<h3>Toys</h3>
+								<div class="product-description" data-name="Toys" data-price="20">
+
+									<p class="product-price">Rs.20/toy</p>
+									<form class="add-to-cart" action="cart.html" method="put">
+										<p>
+											<a href="https://goo.gl/maps/bwJuR6whfEnXy4Ym6">Location</a>
+										</p>
+
+										<div>
+											<label for="qty-2">Quantity</label>
+											<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
 										</div>
-										<div class="row">
-											<div class="col-md-3">
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3">
+							<div class="product-top">
+								<img src="images/HANDLOOM.png">
+								<div class="overlay-right">
+									<button type="button" class="btn btn-secondary" title="Quick Shop">
+										<i class="fa fa-eye"></i>
+									</button>
+
+									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+										<i class="fa fa-heart-o"></i>
+									</button>
+
+									<button type="button" class="btn btn-secondary" title="Add to Cart">
+										<i class="fa fa-shopping-cart"></i>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product-bottom text-center">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+								<h3>HANDLOOM</h3>
+								<div class="product-description" data-name="Handloom" data-price="300">
+
+									<p class="product-price">Rs.300</p>
+									<form class="add-to-cart" action="cart.html" method="put">
+										<p>
+											<a href="https://goo.gl/maps/a7oSN6U2tWMr23q78">Location</a>
+										</p>
+										<div>
+
+											<label for="qty-2">Quantity</label>
+											<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+
+					</div>
+				</div>
+		</section>
+
+
+		<section class="Kannur">
+			<div id="site">
+				<div class="container">
+					<div class="title-box" id="Kannur">
+						<h2>Kodambakkam</h2>
+					</div>
+					<div class="row">
+						<div class="col-md-3">
+							<div class="product-top">
+								<img src="images/HANDICRAFTS.jpeg">
+								<div class="overlay-right">
+									<button type="button" class="btn btn-secondary" title="Quick Shop">
+										<i class="fa fa-eye"></i>
+									</button>
+
+									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+										<i class="fa fa-heart-o"></i>
+									</button>
+
+									<button type="button" class="btn btn-secondary" title="Add to Cart">
+										<i class="fa fa-shopping-cart"></i>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product-bottom text-center">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+								<h3>Handicrafts</h3>
+								<div class="product-description" data-name="Handricrafts" data-price="299">
+
+									<p class="product-price">Rs.299</p>
+									<form class="add-to-cart" action="cart.html" method="put">
+										<p>
+											<a href="https://goo.gl/maps/tHEbeuZ9k69Xz6f59">Location</a>
+										</p>
+										<div>
+
+											<label for="qty-2">Quantity</label>
+											<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+
+						<div class="col-md-3">
+							<div class="product-top">
+								<img src="images/HL.png">
+								<div class="overlay-right">
+									<button type="button" class="btn btn-secondary" title="Quick Shop">
+										<i class="fa fa-eye"></i>
+									</button>
+
+									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
+										<i class="fa fa-heart-o"></i>
+									</button>
+
+									<button type="button" class="btn btn-secondary" title="Add to Cart">
+										<i class="fa fa-shopping-cart"></i>
+									</button>
+								</div>
+							</div>
+
+
+							<div class="product-bottom text-center">
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star"></i>
+								<i class="fa fa-star-half-o"></i>
+								<h3>Handloom</h3>
+
+								<div class="product-description" data-name="Handloom" data-price="499">
+
+									<p class="product-price">Rs.499</p>
+									<form class="add-to-cart" action="cart.html" method="put">
+										<p>
+											<a href="https://goo.gl/maps/sey4TVxXAuhsGYxk6">Location</a>
+										</p>
+										<div>
+
+											<label for="qty-2">Quantity</label>
+											<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+										</div>
+										<p><input type="submit" value="Add to cart" class="btn" /></p>
+									</form>
+
+								</div>
+							</div>
+						</div>
+
+
+						<section class="Kozhikode">
+							<div id="site">
+								<div class="container">
+									<div class="title-box" id="Kozhikode">
+										<h2>Velachery</h2>
+									</div>
+									<div class="row">
+										<div class="col-md-3">
 											<div class="product-top">
-												<img src="images/pazhampori beef roast.jpeg">
+												<img src="images/HALWA.jpg">
 												<div class="overlay-right">
 													<button type="button" class="btn btn-secondary" title="Quick Shop">
-													<i class="fa fa-eye"></i>
+														<i class="fa fa-eye"></i>
 													</button>
-													
-													<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-													<i class="fa fa-heart-o"></i>
+
+													<button type="button" class="btn btn-secondary"
+														title="Add to Wishlist">
+														<i class="fa fa-heart-o"></i>
 													</button>
-													
+
 													<button type="button" class="btn btn-secondary" title="Add to Cart">
-													<i class="fa fa-shopping-cart"></i>
+														<i class="fa fa-shopping-cart"></i>
 													</button>
 												</div>
 											</div>
-											
-											
+
+
 											<div class="product-bottom text-center">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star-half-o"></i>
-											<h3>Meat Shop</h3>
-											<div class="product-description" data-name="Meat Shop" data-price="100">
-												
-												<p class="product-price">Rs.100</p>
-												<form class="add-to-cart" action="cart.html" method="post">
-													<p><a href="https://goo.gl/maps/vKvzeEN5RfDCepBE8">Location</a></p>
-															<div>
-																
-																<label for="qty-2">Quantity</label>
-																<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-															</div>
-															<p><input type="submit" value="Add to cart" class="btn" /></p>
-														</form>
-														
-											</div>
-											</div>
-											</div>
-								
-											
-											<div class="col-md-3">
-											<div class="product-top">
-												<img src="images/handicrafts.jpg">
-												<div class="overlay-right">
-													<button type="button" class="btn btn-secondary" title="Quick Shop">
-													<i class="fa fa-eye"></i>
-													</button>
-													
-													<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-													<i class="fa fa-heart-o"></i>
-													</button>
-													
-													<button type="button" class="btn btn-secondary" title="Add to Cart">
-													<i class="fa fa-shopping-cart"></i>
-													</button>
-												</div>
-											</div>
-											
-											
-											<div class="product-bottom text-center">
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star"></i>
-											<i class="fa fa-star-half-o"></i>
-											<h3>Handicrafts</h3>
-											
-											<div class="product-description" data-name="Handicrafts" data-price="340">
-												
-												<p class="product-price">Rs.340</p>
-												<form class="add-to-cart" action="cart.html" method="post">
-													<p><a href="https://goo.gl/maps/7rwmf6d22mJ9buEP6">Location</a></p>
-															<div>
-																
-																<label for="qty-2">Quantity</label>
-																<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-															</div>
-															<p><input type="submit" value="Add to cart" class="btn" /></p>
-														</form>
-														
-											</div>
-											</div>
-											</div>
-									      <section class="Malappuram">
-												<div id="site">
-													<div class="container">
-														<div class="title-box" id="Malappuram">
-														<h2>Ashok Nagar</h2>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-half-o"></i>
+												<h3>HALWA</h3>
+												<div class="product-description" data-name="HALWA" data-price="60">
+
+													<p class="product-price">Rs.60/kg</p>
+													<form class="add-to-cart" action="cart.html" method="put">
+														<p><a href="https://goo.gl/maps/tU5rVACakYfU9FnK7">Location</a>
+														</p>
+														<div>
+
+															<label for="qty-2">Quantity</label>
+															<input type="text" name="qty-2" id="qty-2" class="qty"
+																value="1" />
 														</div>
-														<div class="row">
-															<div class="col-md-3">
+														<p><input type="submit" value="Add to cart" class="btn" /></p>
+													</form>
+
+												</div>
+											</div>
+										</div>
+
+
+										<div class="col-md-3">
+											<div class="product-top">
+												<img src="images/SPICES.jpeg">
+												<div class="overlay-right">
+													<button type="button" class="btn btn-secondary" title="Quick Shop">
+														<i class="fa fa-eye"></i>
+													</button>
+
+													<button type="button" class="btn btn-secondary"
+														title="Add to Wishlist">
+														<i class="fa fa-heart-o"></i>
+													</button>
+
+													<button type="button" class="btn btn-secondary" title="Add to Cart">
+														<i class="fa fa-shopping-cart"></i>
+													</button>
+												</div>
+											</div>
+
+
+											<div class="product-bottom text-center">
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star"></i>
+												<i class="fa fa-star-half-o"></i>
+												<h3>Spices</h3>
+
+												<div class="product-description" data-name="Spices" data-price="100">
+
+													<p class="product-price">Rs.100/gm</p>
+													<form class="add-to-cart" action="cart.html" method="put">
+														<p><a href="https://goo.gl/maps/HydMSG9BR3T4aZfv5">Location</a>
+														</p>
+														<div>
+
+															<label for="qty-2">Quantity</label>
+															<input type="text" name="qty-2" id="qty-2" class="qty"
+																value="1" />
+														</div>
+														<p><input type="submit" value="Add to cart" class="btn" /></p>
+													</form>
+
+												</div>
+											</div>
+										</div>
+
+										<section class="Kottayam">
+											<div id="site">
+												<div class="container">
+													<div class="title-box" id="Kottayam">
+														<h2>K. K. Nagar</h2>
+													</div>
+													<div class="row">
+														<div class="col-md-3">
 															<div class="product-top">
-																<img src="images/SWEETS.jpg">
+																<img src="images/pazhampori beef roast.jpeg">
 																<div class="overlay-right">
-																	<button type="button" class="btn btn-secondary" title="Quick Shop">
-																	<i class="fa fa-eye"></i>
+																	<button type="button" class="btn btn-secondary"
+																		title="Quick Shop">
+																		<i class="fa fa-eye"></i>
 																	</button>
-																	
-																	<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																	<i class="fa fa-heart-o"></i>
+
+																	<button type="button" class="btn btn-secondary"
+																		title="Add to Wishlist">
+																		<i class="fa fa-heart-o"></i>
 																	</button>
-																	
-																	<button type="button" class="btn btn-secondary" title="Add to Cart">
-																	<i class="fa fa-shopping-cart"></i>
+
+																	<button type="button" class="btn btn-secondary"
+																		title="Add to Cart">
+																		<i class="fa fa-shopping-cart"></i>
 																	</button>
 																</div>
 															</div>
-															
-															
+
+
 															<div class="product-bottom text-center">
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star-half-o"></i>
-															<h3>Sweets</h3>
-															<div class="product-description" data-name="Sweets" data-price="350">
-																
-																<p class="product-price">Rs.350/kg</p>
-																<form class="add-to-cart" action="cart.html" method="post">
-																	<p>
-																		<a href="https://goo.gl/maps/iNRhPq38Qe33CBXz5">Location</a>
-																	</p>
-																			<div>
-																				
-																				<label for="qty-2">Quantity</label>
-																				<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																			</div>
-																			<p><input type="submit" value="Add to cart" class="btn" /></p>
-																		</form>
-																		
-															</div>
-															</div>
-															</div>
-												
-															
-															<div class="col-md-3">
-															<div class="product-top">
-																<img src="images/avil milk.jpg">
-																<div class="overlay-right">
-																	<button type="button" class="btn btn-secondary" title="Quick Shop">
-																	<i class="fa fa-eye"></i>
-																	</button>
-																	
-																	<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																	<i class="fa fa-heart-o"></i>
-																	</button>
-																	
-																	<button type="button" class="btn btn-secondary" title="Add to Cart">
-																	<i class="fa fa-shopping-cart"></i>
-																	</button>
-																</div>
-															</div>
-															
-															
-															<div class="product-bottom text-center">
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star"></i>
-															<i class="fa fa-star-half-o"></i>
-															<h3>Local Jigarthanda</h3>
-															
-															<div class="product-description" data-name="Local Jigarthanda" data-price="90">
-																
-																<p class="product-price">Rs.90</p>
-																<form class="add-to-cart" action="cart.html" method="post">
-																	<p><a href="https://goo.gl/maps/aKmbPC5t8F12xYpR8">Location</a></p>
-																			<div>
-																				
-																				<label for="qty-2">Quantity</label>
-																				<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																			</div>
-																			<p><input type="submit" value="Add to cart" class="btn" /></p>
-																		</form>
-																		
-															</div>
-															</div>
-															</div>
-											
-															<section class="Wayanad">
-																<div id="site">
-																	<div class="container">
-																		<div class="title-box" id="Wayanad">
-																		<h2>Anna Salai</h2>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star-half-o"></i>
+																<h3>Meat Shop</h3>
+																<div class="product-description" data-name="Meat Shop"
+																	data-price="100">
+
+																	<p class="product-price">Rs.100</p>
+																	<form class="add-to-cart" action="cart.html"
+																		method="put">
+																		<p><a
+																				href="https://goo.gl/maps/vKvzeEN5RfDCepBE8">Location</a>
+																		</p>
+																		<div>
+
+																			<label for="qty-2">Quantity</label>
+																			<input type="text" name="qty-2" id="qty-2"
+																				class="qty" value="1" />
 																		</div>
-																		<div class="row">
-																			<div class="col-md-3">
+																		<p><input type="submit" value="Add to cart"
+																				class="btn" /></p>
+																	</form>
+
+																</div>
+															</div>
+														</div>
+
+
+														<div class="col-md-3">
+															<div class="product-top">
+																<img src="images/handicrafts.jpg">
+																<div class="overlay-right">
+																	<button type="button" class="btn btn-secondary"
+																		title="Quick Shop">
+																		<i class="fa fa-eye"></i>
+																	</button>
+
+																	<button type="button" class="btn btn-secondary"
+																		title="Add to Wishlist">
+																		<i class="fa fa-heart-o"></i>
+																	</button>
+
+																	<button type="button" class="btn btn-secondary"
+																		title="Add to Cart">
+																		<i class="fa fa-shopping-cart"></i>
+																	</button>
+																</div>
+															</div>
+
+
+															<div class="product-bottom text-center">
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star"></i>
+																<i class="fa fa-star-half-o"></i>
+																<h3>Handicrafts</h3>
+
+																<div class="product-description" data-name="Handicrafts"
+																	data-price="340">
+
+																	<p class="product-price">Rs.340</p>
+																	<form class="add-to-cart" action="cart.html"
+																		method="put">
+																		<p><a
+																				href="https://goo.gl/maps/7rwmf6d22mJ9buEP6">Location</a>
+																		</p>
+																		<div>
+
+																			<label for="qty-2">Quantity</label>
+																			<input type="text" name="qty-2" id="qty-2"
+																				class="qty" value="1" />
+																		</div>
+																		<p><input type="submit" value="Add to cart"
+																				class="btn" /></p>
+																	</form>
+
+																</div>
+															</div>
+														</div>
+														<section class="Malappuram">
+															<div id="site">
+																<div class="container">
+																	<div class="title-box" id="Malappuram">
+																		<h2>Ashok Nagar</h2>
+																	</div>
+																	<div class="row">
+																		<div class="col-md-3">
 																			<div class="product-top">
-																				<img src="images/HONEY.jpeg">
+																				<img src="images/SWEETS.jpg">
 																				<div class="overlay-right">
-																					<button type="button" class="btn btn-secondary" title="Quick Shop">
-																					<i class="fa fa-eye"></i>
+																					<button type="button"
+																						class="btn btn-secondary"
+																						title="Quick Shop">
+																						<i class="fa fa-eye"></i>
 																					</button>
-																					
-																					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																					<i class="fa fa-heart-o"></i>
+
+																					<button type="button"
+																						class="btn btn-secondary"
+																						title="Add to Wishlist">
+																						<i class="fa fa-heart-o"></i>
 																					</button>
-																					
-																					<button type="button" class="btn btn-secondary" title="Add to Cart">
-																					<i class="fa fa-shopping-cart"></i>
+
+																					<button type="button"
+																						class="btn btn-secondary"
+																						title="Add to Cart">
+																						<i
+																							class="fa fa-shopping-cart"></i>
 																					</button>
 																				</div>
 																			</div>
-																			
-																			
+
+
 																			<div class="product-bottom text-center">
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star-half-o"></i>
-																			<h3>Honey</h3>
-																			<div class="product-description" data-name="Honey" data-price="1200">
-																				
-																				<p class="product-price">Rs.1200</p>
-																				<form class="add-to-cart" action="cart.html" method="post">
-																					<p><a href="https://goo.gl/maps/TcCYC7XSSDsky1YN8">Location</a></p>
-																							<div>
-																								
-																								<label for="qty-2">Quantity</label>
-																								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																							</div>
-																							<p><input type="submit" value="Add to cart" class="btn" /></p>
-																						</form>
-																						
-																			</div>
-																			</div>
-																			</div>
-																
-																			
-																			<div class="col-md-3">
-																			<div class="product-top">
-																				<img src="images/SPICES.jpeg">
-																				<div class="overlay-right">
-																					<button type="button" class="btn btn-secondary" title="Quick Shop">
-																					<i class="fa fa-eye"></i>
-																					</button>
-																					
-																					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																					<i class="fa fa-heart-o"></i>
-																					</button>
-																					
-																					<button type="button" class="btn btn-secondary" title="Add to Cart">
-																					<i class="fa fa-shopping-cart"></i>
-																					</button>
-																				</div>
-																			</div>
-																			
-																			
-																			<div class="product-bottom text-center">
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star"></i>
-																			<i class="fa fa-star-half-o"></i>
-																			<h3>Spices</h3>
-																			
-																			<div class="product-description" data-name="Spices" data-price="150">
-																				
-																				<p class="product-price">Rs.150/gm</p>
-																				<form class="add-to-cart" action="cart.html" method="post">
-																					<p><a href="https://goo.gl/maps/EU39awqVxENhSzb18">Location</a></p>
-																							<div>
-																								
-																								<label for="qty-2">Quantity</label>
-																								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																							</div>
-																							<p><input type="submit" value="Add to cart" class="btn" /></p>
-																						</form>
-																						
-																			</div>
-																			</div>
-																			</div>
-																			<section class="Ernakulam">
-																				<div id="site">
-																					<div class="container">
-																						<div class="title-box" id="Ernakulam">
-																						<h2>Aminjikarai</h2>
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star-half-o"></i>
+																				<h3>Sweets</h3>
+																				<div class="product-description"
+																					data-name="Sweets" data-price="350">
+
+																					<p class="product-price">Rs.350/kg
+																					</p>
+																					<form class="add-to-cart"
+																						action="cart.html"
+																						method="put">
+																						<p>
+																							<a
+																								href="https://goo.gl/maps/iNRhPq38Qe33CBXz5">Location</a>
+																						</p>
+																						<div>
+
+																							<label
+																								for="qty-2">Quantity</label>
+																							<input type="text"
+																								name="qty-2" id="qty-2"
+																								class="qty" value="1" />
 																						</div>
-																						<div class="row">
-																							<div class="col-md-3">
+																						<p><input type="submit"
+																								value="Add to cart"
+																								class="btn" /></p>
+																					</form>
+
+																				</div>
+																			</div>
+																		</div>
+
+
+																		<div class="col-md-3">
+																			<div class="product-top">
+																				<img src="images/avil milk.jpg">
+																				<div class="overlay-right">
+																					<button type="button"
+																						class="btn btn-secondary"
+																						title="Quick Shop">
+																						<i class="fa fa-eye"></i>
+																					</button>
+
+																					<button type="button"
+																						class="btn btn-secondary"
+																						title="Add to Wishlist">
+																						<i class="fa fa-heart-o"></i>
+																					</button>
+
+																					<button type="button"
+																						class="btn btn-secondary"
+																						title="Add to Cart">
+																						<i
+																							class="fa fa-shopping-cart"></i>
+																					</button>
+																				</div>
+																			</div>
+
+
+																			<div class="product-bottom text-center">
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star"></i>
+																				<i class="fa fa-star-half-o"></i>
+																				<h3>Local Jigarthanda</h3>
+
+																				<div class="product-description"
+																					data-name="Local Jigarthanda"
+																					data-price="90">
+
+																					<p class="product-price">Rs.90</p>
+																					<form class="add-to-cart"
+																						action="cart.html"
+																						method="put">
+																						<p><a
+																								href="https://goo.gl/maps/aKmbPC5t8F12xYpR8">Location</a>
+																						</p>
+																						<div>
+
+																							<label
+																								for="qty-2">Quantity</label>
+																							<input type="text"
+																								name="qty-2" id="qty-2"
+																								class="qty" value="1" />
+																						</div>
+																						<p><input type="submit"
+																								value="Add to cart"
+																								class="btn" /></p>
+																					</form>
+
+																				</div>
+																			</div>
+																		</div>
+
+																		<section class="Wayanad">
+																			<div id="site">
+																				<div class="container">
+																					<div class="title-box" id="Wayanad">
+																						<h2>Anna Salai</h2>
+																					</div>
+																					<div class="row">
+																						<div class="col-md-3">
 																							<div class="product-top">
-																								<img src="images/AVOCADO SHAKE.jpeg">
-																								<div class="overlay-right">
-																									<button type="button" class="btn btn-secondary" title="Quick Shop">
-																									<i class="fa fa-eye"></i>
+																								<img
+																									src="images/HONEY.jpeg">
+																								<div
+																									class="overlay-right">
+																									<button
+																										type="button"
+																										class="btn btn-secondary"
+																										title="Quick Shop">
+																										<i
+																											class="fa fa-eye"></i>
 																									</button>
-																									
-																									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																									<i class="fa fa-heart-o"></i>
+
+																									<button
+																										type="button"
+																										class="btn btn-secondary"
+																										title="Add to Wishlist">
+																										<i
+																											class="fa fa-heart-o"></i>
 																									</button>
-																									
-																									<button type="button" class="btn btn-secondary" title="Add to Cart">
-																									<i class="fa fa-shopping-cart"></i>
+
+																									<button
+																										type="button"
+																										class="btn btn-secondary"
+																										title="Add to Cart">
+																										<i
+																											class="fa fa-shopping-cart"></i>
 																									</button>
 																								</div>
 																							</div>
-																							
-																							
-																							<div class="product-bottom text-center">
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star-half-o"></i>
-																							<h3>Avocado Shake</h3>
-																							<div class="product-description" data-name="Avocado Shake" data-price="120">
-																								
-																								<p class="product-price">Rs.120</p>
-																								<form class="add-to-cart" action="cart.html" method="post">
-																									<p><a href="https://goo.gl/maps/rxsVTDhgcwWLy2Q4A">Location</a></p>
-																											<div>
-																												
-																												<label for="qty-2">Quantity</label>
-																												<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																											</div>
-																											<p><input type="submit" value="Add to cart" class="btn" /></p>
-																										</form>
-																										
-																							</div>
-																							</div>
-																							</div>
-																				
-																							
-																							<div class="col-md-3">
-																							<div class="product-top">
-																								<img src="images/SQUARE POROTTA.webp">
-																								<div class="overlay-right">
-																									<button type="button" class="btn btn-secondary" title="Quick Shop">
-																									<i class="fa fa-eye"></i>
-																									</button>
-																									
-																									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																									<i class="fa fa-heart-o"></i>
-																									</button>
-																									
-																									<button type="button" class="btn btn-secondary" title="Add to Cart">
-																									<i class="fa fa-shopping-cart"></i>
-																									</button>
-																								</div>
-																							</div>
-																							
-																							
-																							<div class="product-bottom text-center">
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star"></i>
-																							<i class="fa fa-star-half-o"></i>
-																							<h3>Parotta</h3>
-																							
-																							<div class="product-description" data-name="Parotta" data-price="12">
-																								
-																								<p class="product-price">Rs.12</p>
-																								<form class="add-to-cart" action="cart.html" method="post">
-																									<p><a href="https://goo.gl/maps/frFoRbxQKiRXrsu46">Location</a></p>
-																											<div>
-																												
-																												<label for="qty-2">Quantity</label>
-																												<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																											</div>
-																											<p><input type="submit" value="Add to cart" class="btn" /></p>
-																										</form>
-																										
-																							</div>
-																							</div>
-																							</div>
-																							<section class="Palakkad">
-																								<div id="site">
-																									<div class="container">
-																										<div class="title-box" id="Palakkad">
-																										<h2>Pushpa Nagar</h2>
+
+
+																							<div
+																								class="product-bottom text-center">
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star-half-o"></i>
+																								<h3>Honey</h3>
+																								<div class="product-description"
+																									data-name="Honey"
+																									data-price="1200">
+
+																									<p
+																										class="product-price">
+																										Rs.1200</p>
+																									<form
+																										class="add-to-cart"
+																										action="cart.html"
+																										method="put">
+																										<p><a
+																												href="https://goo.gl/maps/TcCYC7XSSDsky1YN8">Location</a>
+																										</p>
+																										<div>
+
+																											<label
+																												for="qty-2">Quantity</label>
+																											<input
+																												type="text"
+																												name="qty-2"
+																												id="qty-2"
+																												class="qty"
+																												value="1" />
 																										</div>
-																										<div class="row">
-																											<div class="col-md-3">
-																											<div class="product-top">
-																												<img src="images/CHIPS.jpg">
-																												<div class="overlay-right">
-																													<button type="button" class="btn btn-secondary" title="Quick Shop">
-																													<i class="fa fa-eye"></i>
+																										<p><input
+																												type="submit"
+																												value="Add to cart"
+																												class="btn" />
+																										</p>
+																									</form>
+
+																								</div>
+																							</div>
+																						</div>
+
+
+																						<div class="col-md-3">
+																							<div class="product-top">
+																								<img
+																									src="images/SPICES.jpeg">
+																								<div
+																									class="overlay-right">
+																									<button
+																										type="button"
+																										class="btn btn-secondary"
+																										title="Quick Shop">
+																										<i
+																											class="fa fa-eye"></i>
+																									</button>
+
+																									<button
+																										type="button"
+																										class="btn btn-secondary"
+																										title="Add to Wishlist">
+																										<i
+																											class="fa fa-heart-o"></i>
+																									</button>
+
+																									<button
+																										type="button"
+																										class="btn btn-secondary"
+																										title="Add to Cart">
+																										<i
+																											class="fa fa-shopping-cart"></i>
+																									</button>
+																								</div>
+																							</div>
+
+
+																							<div
+																								class="product-bottom text-center">
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star"></i>
+																								<i
+																									class="fa fa-star-half-o"></i>
+																								<h3>Spices</h3>
+
+																								<div class="product-description"
+																									data-name="Spices"
+																									data-price="150">
+
+																									<p
+																										class="product-price">
+																										Rs.150/gm</p>
+																									<form
+																										class="add-to-cart"
+																										action="cart.html"
+																										method="put">
+																										<p><a
+																												href="https://goo.gl/maps/EU39awqVxENhSzb18">Location</a>
+																										</p>
+																										<div>
+
+																											<label
+																												for="qty-2">Quantity</label>
+																											<input
+																												type="text"
+																												name="qty-2"
+																												id="qty-2"
+																												class="qty"
+																												value="1" />
+																										</div>
+																										<p><input
+																												type="submit"
+																												value="Add to cart"
+																												class="btn" />
+																										</p>
+																									</form>
+
+																								</div>
+																							</div>
+																						</div>
+																						<section class="Ernakulam">
+																							<div id="site">
+																								<div class="container">
+																									<div class="title-box"
+																										id="Ernakulam">
+																										<h2>Aminjikarai
+																										</h2>
+																									</div>
+																									<div class="row">
+																										<div
+																											class="col-md-3">
+																											<div
+																												class="product-top">
+																												<img
+																													src="images/AVOCADO SHAKE.jpeg">
+																												<div
+																													class="overlay-right">
+																													<button
+																														type="button"
+																														class="btn btn-secondary"
+																														title="Quick Shop">
+																														<i
+																															class="fa fa-eye"></i>
 																													</button>
-																													
-																													<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																													<i class="fa fa-heart-o"></i>
+
+																													<button
+																														type="button"
+																														class="btn btn-secondary"
+																														title="Add to Wishlist">
+																														<i
+																															class="fa fa-heart-o"></i>
 																													</button>
-																													
-																													<button type="button" class="btn btn-secondary" title="Add to Cart">
-																													<i class="fa fa-shopping-cart"></i>
+
+																													<button
+																														type="button"
+																														class="btn btn-secondary"
+																														title="Add to Cart">
+																														<i
+																															class="fa fa-shopping-cart"></i>
 																													</button>
 																												</div>
 																											</div>
-																											
-																											
-																											<div class="product-bottom text-center">
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star-half-o"></i>
-																											<h3>Chips</h3>
-																											<div class="product-description" data-name="Chips" data-price="85">
-																												
-																												<p class="product-price">Rs.85</p>
-																												<form class="add-to-cart" action="cart.html" method="post">
-																													<p><a href="https://goo.gl/maps/PUT2aW9LQnAtBCGr9">Location</a></p>
-																															<div>
-																																
-																																<label for="qty-2">Quantity</label>
-																																<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																															</div>
-																															<p><input type="submit" value="Add to cart" class="btn" /></p>
-																														</form>
-																														
-																											</div>
-																											</div>
-																											</div>
-																								
-																											
-																											<div class="col-md-3">
-																											<div class="product-top">
-																												<img src="images/tea.webp">
-																												<div class="overlay-right">
-																													<button type="button" class="btn btn-secondary" title="Quick Shop">
-																													<i class="fa fa-eye"></i>
-																													</button>
-																													
-																													<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																													<i class="fa fa-heart-o"></i>
-																													</button>
-																													
-																													<button type="button" class="btn btn-secondary" title="Add to Cart">
-																													<i class="fa fa-shopping-cart"></i>
-																													</button>
-																												</div>
-																											</div>
-																											
-																											
-																											<div class="product-bottom text-center">
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star"></i>
-																											<i class="fa fa-star-half-o"></i>
-																											<h3>Tea</h3>
-																											
-																											<div class="product-description" data-name="Tea" data-price="13">
-																												
-																												<p class="product-price">Rs.13</p>
-																												<form class="add-to-cart" action="cart.html" method="post">
-																													<p>
-																														<a href="https://goo.gl/maps/EULEEKaViQcW3NTL7">Location</a>
+
+
+																											<div
+																												class="product-bottom text-center">
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star-half-o"></i>
+																												<h3>Avocado
+																													Shake
+																												</h3>
+																												<div class="product-description"
+																													data-name="Avocado Shake"
+																													data-price="120">
+
+																													<p
+																														class="product-price">
+																														Rs.120
 																													</p>
-																															<div>
-																																																																 
-																																<label for="qty-2">Quantity</label>
-																																<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																															</div>
-																															<p><input type="submit" value="Add to cart" class="btn" /></p>
-																														</form>
-																														
-																											</div>
-																											</div>
-																											</div>
-																											<section class="Thrissur">
-																												<div id="site">
-																													<div class="container">
-																														<div class="title-box" id="Thrissur">
-																														<h2>Royapuram</h2>
+																													<form
+																														class="add-to-cart"
+																														action="cart.html"
+																														method="put">
+																														<p><a
+																																href="https://goo.gl/maps/rxsVTDhgcwWLy2Q4A">Location</a>
+																														</p>
+																														<div>
+
+																															<label
+																																for="qty-2">Quantity</label>
+																															<input
+																																type="text"
+																																name="qty-2"
+																																id="qty-2"
+																																class="qty"
+																																value="1" />
 																														</div>
-																														<div class="row">
-																															<div class="col-md-3">
-																															<div class="product-top">
-																																<img src="images/HANDLOOM.png">
-																																<div class="overlay-right">
-																																	<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																	<i class="fa fa-eye"></i>
+																														<p><input
+																																type="submit"
+																																value="Add to cart"
+																																class="btn" />
+																														</p>
+																													</form>
+
+																												</div>
+																											</div>
+																										</div>
+
+
+																										<div
+																											class="col-md-3">
+																											<div
+																												class="product-top">
+																												<img
+																													src="images/SQUARE POROTTA.webp">
+																												<div
+																													class="overlay-right">
+																													<button
+																														type="button"
+																														class="btn btn-secondary"
+																														title="Quick Shop">
+																														<i
+																															class="fa fa-eye"></i>
+																													</button>
+
+																													<button
+																														type="button"
+																														class="btn btn-secondary"
+																														title="Add to Wishlist">
+																														<i
+																															class="fa fa-heart-o"></i>
+																													</button>
+
+																													<button
+																														type="button"
+																														class="btn btn-secondary"
+																														title="Add to Cart">
+																														<i
+																															class="fa fa-shopping-cart"></i>
+																													</button>
+																												</div>
+																											</div>
+
+
+																											<div
+																												class="product-bottom text-center">
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star"></i>
+																												<i
+																													class="fa fa-star-half-o"></i>
+																												<h3>Parotta
+																												</h3>
+
+																												<div class="product-description"
+																													data-name="Parotta"
+																													data-price="12">
+
+																													<p
+																														class="product-price">
+																														Rs.12
+																													</p>
+																													<form
+																														class="add-to-cart"
+																														action="cart.html"
+																														method="put">
+																														<p><a
+																																href="https://goo.gl/maps/frFoRbxQKiRXrsu46">Location</a>
+																														</p>
+																														<div>
+
+																															<label
+																																for="qty-2">Quantity</label>
+																															<input
+																																type="text"
+																																name="qty-2"
+																																id="qty-2"
+																																class="qty"
+																																value="1" />
+																														</div>
+																														<p><input
+																																type="submit"
+																																value="Add to cart"
+																																class="btn" />
+																														</p>
+																													</form>
+
+																												</div>
+																											</div>
+																										</div>
+																										<section
+																											class="Palakkad">
+																											<div
+																												id="site">
+																												<div
+																													class="container">
+																													<div class="title-box"
+																														id="Palakkad">
+																														<h2>Pushpa
+																															Nagar
+																														</h2>
+																													</div>
+																													<div
+																														class="row">
+																														<div
+																															class="col-md-3">
+																															<div
+																																class="product-top">
+																																<img
+																																	src="images/CHIPS.jpg">
+																																<div
+																																	class="overlay-right">
+																																	<button
+																																		type="button"
+																																		class="btn btn-secondary"
+																																		title="Quick Shop">
+																																		<i
+																																			class="fa fa-eye"></i>
 																																	</button>
-																																	
-																																	<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																	<i class="fa fa-heart-o"></i>
+
+																																	<button
+																																		type="button"
+																																		class="btn btn-secondary"
+																																		title="Add to Wishlist">
+																																		<i
+																																			class="fa fa-heart-o"></i>
 																																	</button>
-																																	
-																																	<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																	<i class="fa fa-shopping-cart"></i>
+
+																																	<button
+																																		type="button"
+																																		class="btn btn-secondary"
+																																		title="Add to Cart">
+																																		<i
+																																			class="fa fa-shopping-cart"></i>
 																																	</button>
 																																</div>
 																															</div>
-																															
-																															
-																															<div class="product-bottom text-center">
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star-half-o"></i>
-																															<h3>Handloom</h3>
-																															<div class="product-description" data-name="Handloom" data-price="400">
-																																
-																																<p class="product-price">Rs.400</p>
-																																<form class="add-to-cart" action="cart.html" method="post">
-																																	<p>
-																																		<a href="https://goo.gl/maps/nrCVzrRycoR2L9kZA">Location</a>
+
+
+																															<div
+																																class="product-bottom text-center">
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star-half-o"></i>
+																																<h3>Chips
+																																</h3>
+																																<div class="product-description"
+																																	data-name="Chips"
+																																	data-price="85">
+
+																																	<p
+																																		class="product-price">
+																																		Rs.85
 																																	</p>
-																																			<div>
-																																				
-																																				<label for="qty-2">Quantity</label>
-																																				<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																			</div>
-																																			<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																		</form>
-																																		
-																															</div>
-																															</div>
-																															</div>
-																												
-																															
-																															<div class="col-md-3">
-																															<div class="product-top">
-																																<img src="images/SHAKE.webp">
-																																<div class="overlay-right">
-																																	<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																	<i class="fa fa-eye"></i>
-																																	</button>
-																																	
-																																	<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																	<i class="fa fa-heart-o"></i>
-																																	</button>
-																																	
-																																	<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																	<i class="fa fa-shopping-cart"></i>
-																																	</button>
-																																</div>
-																															</div>
-																															
-																															
-																															<div class="product-bottom text-center">
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star"></i>
-																															<i class="fa fa-star-half-o"></i>
-																															<h3>Shake</h3>
-																															
-																															<div class="product-description" data-name="SHAKE" data-price="110">
-																																
-																																<p class="product-price">Rs.110</p>
-																																<form class="add-to-cart" action="cart.html" method="post">
-																																	<p>
-																																		<a href="https://goo.gl/maps/uzMShrHrSQKVpugJ8">Location</a>
-																																	</p>
-																																			<div>
-																																				
-																																				<label for="qty-2">Quantity</label>
-																																				<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																			</div>
-																																			<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																		</form>
-																																		
-																															</div>
-																															</div>
-																															</div>
-																															<section class="Idukki">
-																																<div id="site">
-																																	<div class="container">
-																																		<div class="title-box" id="Idukki">
-																																		<h2>Thiruvallikeni</h2>
+																																	<form
+																																		class="add-to-cart"
+																																		action="cart.html"
+																																		method="put">
+																																		<p><a
+																																				href="https://goo.gl/maps/PUT2aW9LQnAtBCGr9">Location</a>
+																																		</p>
+																																		<div>
+
+																																			<label
+																																				for="qty-2">Quantity</label>
+																																			<input
+																																				type="text"
+																																				name="qty-2"
+																																				id="qty-2"
+																																				class="qty"
+																																				value="1" />
 																																		</div>
-																																		<div class="row">
-																																			<div class="col-md-3">
-																																			<div class="product-top">
-																																				<img src="images/cardamom.jpg">
-																																				<div class="overlay-right">
-																																					<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																					<i class="fa fa-eye"></i>
+																																		<p><input
+																																				type="submit"
+																																				value="Add to cart"
+																																				class="btn" />
+																																		</p>
+																																	</form>
+
+																																</div>
+																															</div>
+																														</div>
+
+
+																														<div
+																															class="col-md-3">
+																															<div
+																																class="product-top">
+																																<img
+																																	src="images/tea.webp">
+																																<div
+																																	class="overlay-right">
+																																	<button
+																																		type="button"
+																																		class="btn btn-secondary"
+																																		title="Quick Shop">
+																																		<i
+																																			class="fa fa-eye"></i>
+																																	</button>
+
+																																	<button
+																																		type="button"
+																																		class="btn btn-secondary"
+																																		title="Add to Wishlist">
+																																		<i
+																																			class="fa fa-heart-o"></i>
+																																	</button>
+
+																																	<button
+																																		type="button"
+																																		class="btn btn-secondary"
+																																		title="Add to Cart">
+																																		<i
+																																			class="fa fa-shopping-cart"></i>
+																																	</button>
+																																</div>
+																															</div>
+
+
+																															<div
+																																class="product-bottom text-center">
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star"></i>
+																																<i
+																																	class="fa fa-star-half-o"></i>
+																																<h3>Tea
+																																</h3>
+
+																																<div class="product-description"
+																																	data-name="Tea"
+																																	data-price="13">
+
+																																	<p
+																																		class="product-price">
+																																		Rs.13
+																																	</p>
+																																	<form
+																																		class="add-to-cart"
+																																		action="cart.html"
+																																		method="put">
+																																		<p>
+																																			<a
+																																				href="https://goo.gl/maps/EULEEKaViQcW3NTL7">Location</a>
+																																		</p>
+																																		<div>
+
+																																			<label
+																																				for="qty-2">Quantity</label>
+																																			<input
+																																				type="text"
+																																				name="qty-2"
+																																				id="qty-2"
+																																				class="qty"
+																																				value="1" />
+																																		</div>
+																																		<p><input
+																																				type="submit"
+																																				value="Add to cart"
+																																				class="btn" />
+																																		</p>
+																																	</form>
+
+																																</div>
+																															</div>
+																														</div>
+																														<section
+																															class="Thrissur">
+																															<div
+																																id="site">
+																																<div
+																																	class="container">
+																																	<div class="title-box"
+																																		id="Thrissur">
+																																		<h2>Royapuram
+																																		</h2>
+																																	</div>
+																																	<div
+																																		class="row">
+																																		<div
+																																			class="col-md-3">
+																																			<div
+																																				class="product-top">
+																																				<img
+																																					src="images/HANDLOOM.png">
+																																				<div
+																																					class="overlay-right">
+																																					<button
+																																						type="button"
+																																						class="btn btn-secondary"
+																																						title="Quick Shop">
+																																						<i
+																																							class="fa fa-eye"></i>
 																																					</button>
-																																					
-																																					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																					<i class="fa fa-heart-o"></i>
+
+																																					<button
+																																						type="button"
+																																						class="btn btn-secondary"
+																																						title="Add to Wishlist">
+																																						<i
+																																							class="fa fa-heart-o"></i>
 																																					</button>
-																																					
-																																					<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																					<i class="fa fa-shopping-cart"></i>
+
+																																					<button
+																																						type="button"
+																																						class="btn btn-secondary"
+																																						title="Add to Cart">
+																																						<i
+																																							class="fa fa-shopping-cart"></i>
 																																					</button>
 																																				</div>
 																																			</div>
-																																			
-																																			
-																																			<div class="product-bottom text-center">
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star-half-o"></i>
-																																			<h3>Cardamom</h3>
-																																			<div class="product-description" data-name="Cardamom" data-price="120">
-																																				
-																																				<p class="product-price">Rs.120/gm</p>
-																																				<form class="add-to-cart" action="cart.html" method="post">
-																																					<p>
-																																						<a href="https://goo.gl/maps/cccfmh6vsVDKhwqXA">Location</a>
+
+
+																																			<div
+																																				class="product-bottom text-center">
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star-half-o"></i>
+																																				<h3>Handloom
+																																				</h3>
+																																				<div class="product-description"
+																																					data-name="Handloom"
+																																					data-price="400">
+
+																																					<p
+																																						class="product-price">
+																																						Rs.400
 																																					</p>
-																																							<div>
-																																								
-																																								<label for="qty-2">Quantity</label>
-																																								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																							</div>
-																																							<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																						</form>
-																																						
-																																			</div>
-																																			</div>
-																																			</div>
-																																
-																																			
-																																			<div class="col-md-3">
-																																			<div class="product-top">
-																																				<img src="images/spices.jpg">
-																																				<div class="overlay-right">
-																																					<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																					<i class="fa fa-eye"></i>
-																																					</button>
-																																					
-																																					<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																					<i class="fa fa-heart-o"></i>
-																																					</button>
-																																					
-																																					<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																					<i class="fa fa-shopping-cart"></i>
-																																					</button>
-																																				</div>
-																																			</div>
-																																			
-																																			
-																																			<div class="product-bottom text-center">
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star"></i>
-																																			<i class="fa fa-star-half-o"></i>
-																																			<h3>Spices</h3>
-																																			
-																																			<div class="product-description" data-name="SPICES" data-price="130">
-																																				
-																																				<p class="product-price">Rs.130/gm</p>
-																																				<form class="add-to-cart" action="cart.html" method="post">
-																																					<p>
-																																						<a href="https://goo.gl/maps/rGok3gmFjVRfhc9h8">Location</a>
-																																					</p>
-																																							<div> 
-																																								
-																																								<label for="qty-2">Quantity</label>
-																																								<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																							</div>
-																																							<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																						</form>
-																																						
-																																			</div>
-																																			</div>
-																																			</div>
-																																			<section class="Alappuzha">
-																																				<div id="site">
-																																					<div class="container" id="Alappuzha">
-																																						<div class="title-box">
-																																						<h2>Mambalam</h2>
+																																					<form
+																																						class="add-to-cart"
+																																						action="cart.html"
+																																						method="put">
+																																						<p>
+																																							<a
+																																								href="https://goo.gl/maps/nrCVzrRycoR2L9kZA">Location</a>
+																																						</p>
+																																						<div>
+
+																																							<label
+																																								for="qty-2">Quantity</label>
+																																							<input
+																																								type="text"
+																																								name="qty-2"
+																																								id="qty-2"
+																																								class="qty"
+																																								value="1" />
 																																						</div>
-																																						<div class="row">
-																																							<div class="col-md-3">
-																																							<div class="product-top">
-																																								<img src="images/COIR.jpeg">
-																																								<div class="overlay-right">
-																																									<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																									<i class="fa fa-eye"></i>
+																																						<p><input
+																																								type="submit"
+																																								value="Add to cart"
+																																								class="btn" />
+																																						</p>
+																																					</form>
+
+																																				</div>
+																																			</div>
+																																		</div>
+
+
+																																		<div
+																																			class="col-md-3">
+																																			<div
+																																				class="product-top">
+																																				<img
+																																					src="images/SHAKE.webp">
+																																				<div
+																																					class="overlay-right">
+																																					<button
+																																						type="button"
+																																						class="btn btn-secondary"
+																																						title="Quick Shop">
+																																						<i
+																																							class="fa fa-eye"></i>
+																																					</button>
+
+																																					<button
+																																						type="button"
+																																						class="btn btn-secondary"
+																																						title="Add to Wishlist">
+																																						<i
+																																							class="fa fa-heart-o"></i>
+																																					</button>
+
+																																					<button
+																																						type="button"
+																																						class="btn btn-secondary"
+																																						title="Add to Cart">
+																																						<i
+																																							class="fa fa-shopping-cart"></i>
+																																					</button>
+																																				</div>
+																																			</div>
+
+
+																																			<div
+																																				class="product-bottom text-center">
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star"></i>
+																																				<i
+																																					class="fa fa-star-half-o"></i>
+																																				<h3>Shake
+																																				</h3>
+
+																																				<div class="product-description"
+																																					data-name="SHAKE"
+																																					data-price="110">
+
+																																					<p
+																																						class="product-price">
+																																						Rs.110
+																																					</p>
+																																					<form
+																																						class="add-to-cart"
+																																						action="cart.html"
+																																						method="put">
+																																						<p>
+																																							<a
+																																								href="https://goo.gl/maps/uzMShrHrSQKVpugJ8">Location</a>
+																																						</p>
+																																						<div>
+
+																																							<label
+																																								for="qty-2">Quantity</label>
+																																							<input
+																																								type="text"
+																																								name="qty-2"
+																																								id="qty-2"
+																																								class="qty"
+																																								value="1" />
+																																						</div>
+																																						<p><input
+																																								type="submit"
+																																								value="Add to cart"
+																																								class="btn" />
+																																						</p>
+																																					</form>
+
+																																				</div>
+																																			</div>
+																																		</div>
+																																		<section
+																																			class="Idukki">
+																																			<div
+																																				id="site">
+																																				<div
+																																					class="container">
+																																					<div class="title-box"
+																																						id="Idukki">
+																																						<h2>Thiruvallikeni
+																																						</h2>
+																																					</div>
+																																					<div
+																																						class="row">
+																																						<div
+																																							class="col-md-3">
+																																							<div
+																																								class="product-top">
+																																								<img
+																																									src="images/cardamom.jpg">
+																																								<div
+																																									class="overlay-right">
+																																									<button
+																																										type="button"
+																																										class="btn btn-secondary"
+																																										title="Quick Shop">
+																																										<i
+																																											class="fa fa-eye"></i>
 																																									</button>
-																																									
-																																									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																									<i class="fa fa-heart-o"></i>
+
+																																									<button
+																																										type="button"
+																																										class="btn btn-secondary"
+																																										title="Add to Wishlist">
+																																										<i
+																																											class="fa fa-heart-o"></i>
 																																									</button>
-																																									
-																																									<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																									<i class="fa fa-shopping-cart"></i>
+
+																																									<button
+																																										type="button"
+																																										class="btn btn-secondary"
+																																										title="Add to Cart">
+																																										<i
+																																											class="fa fa-shopping-cart"></i>
 																																									</button>
 																																								</div>
 																																							</div>
-																																							
-																																							
-																																							<div class="product-bottom text-center">
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star-half-o"></i>
-																																							<h3>Coir</h3>
-																																							<div class="product-description" data-name="COIR" data-price="399">
-																																								
-																																								<p class="product-price">Rs.399/kg</p>
-																																								<form class="add-to-cart" action="cart.html" method="post">
-																																									<p>
-																																										<a href="https://goo.gl/maps/8eM2UsJC71Ssxkwu5">Location</a>
+
+
+																																							<div
+																																								class="product-bottom text-center">
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star-half-o"></i>
+																																								<h3>Cardamom
+																																								</h3>
+																																								<div class="product-description"
+																																									data-name="Cardamom"
+																																									data-price="120">
+
+																																									<p
+																																										class="product-price">
+																																										Rs.120/gm
 																																									</p>
-																																											<div>
-																																												
-																																												<label for="qty-2">Quantity</label>
-																																												<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																											</div>
-																																											<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																										</form>
-																																										
-																																							</div>
-																																							</div>
-																																							</div>
-																																				
-																																							
-																																							<div class="col-md-3">
-																																							<div class="product-top">
-																																								<img src="images/sarbath.jpg">
-																																								<div class="overlay-right">
-																																									<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																									<i class="fa fa-eye"></i>
-																																									</button>
-																																									
-																																									<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																									<i class="fa fa-heart-o"></i>
-																																									</button>
-																																									
-																																									<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																									<i class="fa fa-shopping-cart"></i>
-																																									</button>
-																																								</div>
-																																							</div>
-																																							
-																																							
-																																							<div class="product-bottom text-center">
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star"></i>
-																																							<i class="fa fa-star-half-o"></i>
-																																							<h3>Juice</h3>
-																																							
-																																							<div class="product-description" data-name="Juice" data-price="30">
-																																								
-																																								<p class="product-price">Rs.30</p>
-																																								<form class="add-to-cart" action="cart.html" method="post">
-																																									<p>
-																																										<a href="https://goo.gl/maps/U7V3hpD4rbWcwWUp7">Location</a>
-																																									</p>
-																																											<div>
-																																												   
-																																												<label for="qty-2">Quantity</label>
-																																												<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																											</div>
-																																											<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																										</form>
-																																										
-																																							</div>
-																																							</div>
-																																							</div>
-																																							<section class="Pathanamthitta">
-																																								<div id="site">
-																																									<div class="container">
-																																										<div class="title-box" id="Pathanamthitta">
-																																										<h2>Adyar</h2>
+																																									<form
+																																										class="add-to-cart"
+																																										action="cart.html"
+																																										method="put">
+																																										<p>
+																																											<a
+																																												href="https://goo.gl/maps/cccfmh6vsVDKhwqXA">Location</a>
+																																										</p>
+																																										<div>
+
+																																											<label
+																																												for="qty-2">Quantity</label>
+																																											<input
+																																												type="text"
+																																												name="qty-2"
+																																												id="qty-2"
+																																												class="qty"
+																																												value="1" />
 																																										</div>
-																																										<div class="row">
-																																											<div class="col-md-3">
-																																											<div class="product-top">
-																																												<img src="images/aranmula-kannadi.jpg">
-																																												<div class="overlay-right">
-																																													<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																													<i class="fa fa-eye"></i>
+																																										<p><input
+																																												type="submit"
+																																												value="Add to cart"
+																																												class="btn" />
+																																										</p>
+																																									</form>
+
+																																								</div>
+																																							</div>
+																																						</div>
+
+
+																																						<div
+																																							class="col-md-3">
+																																							<div
+																																								class="product-top">
+																																								<img
+																																									src="images/spices.jpg">
+																																								<div
+																																									class="overlay-right">
+																																									<button
+																																										type="button"
+																																										class="btn btn-secondary"
+																																										title="Quick Shop">
+																																										<i
+																																											class="fa fa-eye"></i>
+																																									</button>
+
+																																									<button
+																																										type="button"
+																																										class="btn btn-secondary"
+																																										title="Add to Wishlist">
+																																										<i
+																																											class="fa fa-heart-o"></i>
+																																									</button>
+
+																																									<button
+																																										type="button"
+																																										class="btn btn-secondary"
+																																										title="Add to Cart">
+																																										<i
+																																											class="fa fa-shopping-cart"></i>
+																																									</button>
+																																								</div>
+																																							</div>
+
+
+																																							<div
+																																								class="product-bottom text-center">
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star"></i>
+																																								<i
+																																									class="fa fa-star-half-o"></i>
+																																								<h3>Spices
+																																								</h3>
+
+																																								<div class="product-description"
+																																									data-name="SPICES"
+																																									data-price="130">
+
+																																									<p
+																																										class="product-price">
+																																										Rs.130/gm
+																																									</p>
+																																									<form
+																																										class="add-to-cart"
+																																										action="cart.html"
+																																										method="put">
+																																										<p>
+																																											<a
+																																												href="https://goo.gl/maps/rGok3gmFjVRfhc9h8">Location</a>
+																																										</p>
+																																										<div>
+
+																																											<label
+																																												for="qty-2">Quantity</label>
+																																											<input
+																																												type="text"
+																																												name="qty-2"
+																																												id="qty-2"
+																																												class="qty"
+																																												value="1" />
+																																										</div>
+																																										<p><input
+																																												type="submit"
+																																												value="Add to cart"
+																																												class="btn" />
+																																										</p>
+																																									</form>
+
+																																								</div>
+																																							</div>
+																																						</div>
+																																						<section
+																																							class="Alappuzha">
+																																							<div
+																																								id="site">
+																																								<div class="container"
+																																									id="Alappuzha">
+																																									<div
+																																										class="title-box">
+																																										<h2>Mambalam
+																																										</h2>
+																																									</div>
+																																									<div
+																																										class="row">
+																																										<div
+																																											class="col-md-3">
+																																											<div
+																																												class="product-top">
+																																												<img
+																																													src="images/COIR.jpeg">
+																																												<div
+																																													class="overlay-right">
+																																													<button
+																																														type="button"
+																																														class="btn btn-secondary"
+																																														title="Quick Shop">
+																																														<i
+																																															class="fa fa-eye"></i>
 																																													</button>
-																																													
-																																													<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																													<i class="fa fa-heart-o"></i>
+
+																																													<button
+																																														type="button"
+																																														class="btn btn-secondary"
+																																														title="Add to Wishlist">
+																																														<i
+																																															class="fa fa-heart-o"></i>
 																																													</button>
-																																													
-																																													<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																													<i class="fa fa-shopping-cart"></i>
+
+																																													<button
+																																														type="button"
+																																														class="btn btn-secondary"
+																																														title="Add to Cart">
+																																														<i
+																																															class="fa fa-shopping-cart"></i>
 																																													</button>
 																																												</div>
 																																											</div>
-																																											
-																																											
-																																											<div class="product-bottom text-center">
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star-half-o"></i>
-																																											<h3>Aranmula Mirror</h3>
-																																											<div class="product-description" data-name="Aranmula Mirror" data-price="3500">
-																																												
-																																												<p class="product-price">Rs.3500</p>
-																																												<form class="add-to-cart" action="cart.html" method="post">
-																																													<p>
-																																														<a href="https://goo.gl/maps/P9aJkU4S5hhrvkUa6">Location</a>
+
+
+																																											<div
+																																												class="product-bottom text-center">
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star-half-o"></i>
+																																												<h3>Coir
+																																												</h3>
+																																												<div class="product-description"
+																																													data-name="COIR"
+																																													data-price="399">
+
+																																													<p
+																																														class="product-price">
+																																														Rs.399/kg
 																																													</p>
-																																															<div>
-																																																
-																																																<label for="qty-2">Quantity</label>
-																																																<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																															</div>
-																																															<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																														</form>
-																																														
-																																											</div>
-																																											</div>
-																																											</div>
-																																								
-																																											
-																																											<div class="col-md-3">
-																																											<div class="product-top">
-																																												<img src="images/jute products.jpeg">
-																																												<div class="overlay-right">
-																																													<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																													<i class="fa fa-eye"></i>
-																																													</button>
-																																													
-																																													<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																													<i class="fa fa-heart-o"></i>
-																																													</button>
-																																													
-																																													<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																													<i class="fa fa-shopping-cart"></i>
-																																													</button>
-																																												</div>
-																																											</div>
-																																											
-																																											
-																																											<div class="product-bottom text-center">
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star"></i>
-																																											<i class="fa fa-star-half-o"></i>
-																																											<h3>Jute</h3>
-																																											
-																																											<div class="product-description" data-name="Jute" data-price="700">
-																																												
-																																												<p class="product-price">Rs.700</p>
-																																												<form class="add-to-cart" action="cart.html" method="post">
-																																													<p>
-																																														<a href="https://goo.gl/maps/HYhNxtHRfYQGjguz9">Location</a>
-																																													</p>
-																																															<div>
-																																																
-																																																<label for="qty-2">Quantity</label>
-																																																<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																															</div>
-																																															<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																														</form>
-																																														
-																																											</div>
-																																											</div>
-																																											</div>
-																																											<section class="Trivandrum">
-																																												<div id="site">
-																																													<div class="container">
-																																														<div class="title-box" id="Trivandrum">
-																																														<h2>Besant Nagar</h2>
+																																													<form
+																																														class="add-to-cart"
+																																														action="cart.html"
+																																														method="put">
+																																														<p>
+																																															<a
+																																																href="https://goo.gl/maps/8eM2UsJC71Ssxkwu5">Location</a>
+																																														</p>
+																																														<div>
+
+																																															<label
+																																																for="qty-2">Quantity</label>
+																																															<input
+																																																type="text"
+																																																name="qty-2"
+																																																id="qty-2"
+																																																class="qty"
+																																																value="1" />
 																																														</div>
-																																														<div class="row">
-																																															<div class="col-md-3">
-																																															<div class="product-top">
-																																																<img src="images/CASHEW.jpeg">
-																																																<div class="overlay-right">
-																																																	<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																																	<i class="fa fa-eye"></i>
+																																														<p><input
+																																																type="submit"
+																																																value="Add to cart"
+																																																class="btn" />
+																																														</p>
+																																													</form>
+
+																																												</div>
+																																											</div>
+																																										</div>
+
+
+																																										<div
+																																											class="col-md-3">
+																																											<div
+																																												class="product-top">
+																																												<img
+																																													src="images/sarbath.jpg">
+																																												<div
+																																													class="overlay-right">
+																																													<button
+																																														type="button"
+																																														class="btn btn-secondary"
+																																														title="Quick Shop">
+																																														<i
+																																															class="fa fa-eye"></i>
+																																													</button>
+
+																																													<button
+																																														type="button"
+																																														class="btn btn-secondary"
+																																														title="Add to Wishlist">
+																																														<i
+																																															class="fa fa-heart-o"></i>
+																																													</button>
+
+																																													<button
+																																														type="button"
+																																														class="btn btn-secondary"
+																																														title="Add to Cart">
+																																														<i
+																																															class="fa fa-shopping-cart"></i>
+																																													</button>
+																																												</div>
+																																											</div>
+
+
+																																											<div
+																																												class="product-bottom text-center">
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star"></i>
+																																												<i
+																																													class="fa fa-star-half-o"></i>
+																																												<h3>Juice
+																																												</h3>
+
+																																												<div class="product-description"
+																																													data-name="Juice"
+																																													data-price="30">
+
+																																													<p
+																																														class="product-price">
+																																														Rs.30
+																																													</p>
+																																													<form
+																																														class="add-to-cart"
+																																														action="cart.html"
+																																														method="put">
+																																														<p>
+																																															<a
+																																																href="https://goo.gl/maps/U7V3hpD4rbWcwWUp7">Location</a>
+																																														</p>
+																																														<div>
+
+																																															<label
+																																																for="qty-2">Quantity</label>
+																																															<input
+																																																type="text"
+																																																name="qty-2"
+																																																id="qty-2"
+																																																class="qty"
+																																																value="1" />
+																																														</div>
+																																														<p><input
+																																																type="submit"
+																																																value="Add to cart"
+																																																class="btn" />
+																																														</p>
+																																													</form>
+
+																																												</div>
+																																											</div>
+																																										</div>
+																																										<section
+																																											class="Pathanamthitta">
+																																											<div
+																																												id="site">
+																																												<div
+																																													class="container">
+																																													<div class="title-box"
+																																														id="Pathanamthitta">
+																																														<h2>Adyar
+																																														</h2>
+																																													</div>
+																																													<div
+																																														class="row">
+																																														<div
+																																															class="col-md-3">
+																																															<div
+																																																class="product-top">
+																																																<img
+																																																	src="images/aranmula-kannadi.jpg">
+																																																<div
+																																																	class="overlay-right">
+																																																	<button
+																																																		type="button"
+																																																		class="btn btn-secondary"
+																																																		title="Quick Shop">
+																																																		<i
+																																																			class="fa fa-eye"></i>
 																																																	</button>
-																																																	
-																																																	<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																																	<i class="fa fa-heart-o"></i>
+
+																																																	<button
+																																																		type="button"
+																																																		class="btn btn-secondary"
+																																																		title="Add to Wishlist">
+																																																		<i
+																																																			class="fa fa-heart-o"></i>
 																																																	</button>
-																																																	
-																																																	<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																																	<i class="fa fa-shopping-cart"></i>
+
+																																																	<button
+																																																		type="button"
+																																																		class="btn btn-secondary"
+																																																		title="Add to Cart">
+																																																		<i
+																																																			class="fa fa-shopping-cart"></i>
 																																																	</button>
 																																																</div>
 																																															</div>
-																																															
-																																															
-																																															<div class="product-bottom text-center">
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star-half-o"></i>
-																																															<h3>Cashew</h3>
-																																															<div class="product-description" data-name="Cashew" data-price="12">
-																																																
-																																																<p class="product-price">Rs.455/250gm</p>
-																																																<form class="add-to-cart" action="cart.html" method="post">
-																																																	<p>
-																																																		<a href="https://goo.gl/maps/43QjHUB3RcUSLb6MA">Location</a>
+
+
+																																															<div
+																																																class="product-bottom text-center">
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star-half-o"></i>
+																																																<h3>Aranmula
+																																																	Mirror
+																																																</h3>
+																																																<div class="product-description"
+																																																	data-name="Aranmula Mirror"
+																																																	data-price="3500">
+
+																																																	<p
+																																																		class="product-price">
+																																																		Rs.3500
 																																																	</p>
-																																																			<div>
-																																																				
-																																																				<label for="qty-2">Quantity</label>
-																																																				<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
-																																																			</div>
-																																																			<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																																		</form>
-																																																		
+																																																	<form
+																																																		class="add-to-cart"
+																																																		action="cart.html"
+																																																		method="put">
+																																																		<p>
+																																																			<a
+																																																				href="https://goo.gl/maps/P9aJkU4S5hhrvkUa6">Location</a>
+																																																		</p>
+																																																		<div>
+
+																																																			<label
+																																																				for="qty-2">Quantity</label>
+																																																			<input
+																																																				type="text"
+																																																				name="qty-2"
+																																																				id="qty-2"
+																																																				class="qty"
+																																																				value="1" />
+																																																		</div>
+																																																		<p><input
+																																																				type="submit"
+																																																				value="Add to cart"
+																																																				class="btn" />
+																																																		</p>
+																																																	</form>
+
+																																																</div>
 																																															</div>
-																																															</div>
-																																															</div>
-																																												
-																																															
-																																															<div class="col-md-3">
-																																															<div class="product-top">
-																																																<img src="images/seafood.jpg">
-																																																<div class="overlay-right">
-																																																	<button type="button" class="btn btn-secondary" title="Quick Shop">
-																																																	<i class="fa fa-eye"></i>
+																																														</div>
+
+
+																																														<div
+																																															class="col-md-3">
+																																															<div
+																																																class="product-top">
+																																																<img
+																																																	src="images/jute products.jpeg">
+																																																<div
+																																																	class="overlay-right">
+																																																	<button
+																																																		type="button"
+																																																		class="btn btn-secondary"
+																																																		title="Quick Shop">
+																																																		<i
+																																																			class="fa fa-eye"></i>
 																																																	</button>
-																																																	
-																																																	<button type="button" class="btn btn-secondary" title="Add to Wishlist">
-																																																	<i class="fa fa-heart-o"></i>
+
+																																																	<button
+																																																		type="button"
+																																																		class="btn btn-secondary"
+																																																		title="Add to Wishlist">
+																																																		<i
+																																																			class="fa fa-heart-o"></i>
 																																																	</button>
-																																																	
-																																																	<button type="button" class="btn btn-secondary" title="Add to Cart">
-																																																	<i class="fa fa-shopping-cart"></i>
+
+																																																	<button
+																																																		type="button"
+																																																		class="btn btn-secondary"
+																																																		title="Add to Cart">
+																																																		<i
+																																																			class="fa fa-shopping-cart"></i>
 																																																	</button>
 																																																</div>
 																																															</div>
-																																															
-																																															
-																																															<div class="product-bottom text-center">
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star"></i>
-																																															<i class="fa fa-star-half-o"></i>
-																																															<h3>Seafood</h3>
-																																															
-																																															<div class="product-description" data-name="Seafood" data-price="34">
-																																																
-																																																<p class="product-price">Rs.250/kg</p>
-																																																<form class="add-to-cart" action="cart.html" method="post">
-																																																	<p>
-																																																		<a href="https://goo.gl/maps/zDgTjCiw8mubb1N16">Location</a>
+
+
+																																															<div
+																																																class="product-bottom text-center">
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star"></i>
+																																																<i
+																																																	class="fa fa-star-half-o"></i>
+																																																<h3>Jute
+																																																</h3>
+
+																																																<div class="product-description"
+																																																	data-name="Jute"
+																																																	data-price="700">
+
+																																																	<p
+																																																		class="product-price">
+																																																		Rs.700
 																																																	</p>
-																																																			<div>
-																																																				
-																																																				<label for="qty-2">Quantity</label>
-																																																				<input type="text" name="qty-2" id="qty-2" class="qty" value="1" />
+																																																	<form
+																																																		class="add-to-cart"
+																																																		action="cart.html"
+																																																		method="put">
+																																																		<p>
+																																																			<a
+																																																				href="https://goo.gl/maps/HYhNxtHRfYQGjguz9">Location</a>
+																																																		</p>
+																																																		<div>
+
+																																																			<label
+																																																				for="qty-2">Quantity</label>
+																																																			<input
+																																																				type="text"
+																																																				name="qty-2"
+																																																				id="qty-2"
+																																																				class="qty"
+																																																				value="1" />
+																																																		</div>
+																																																		<p><input
+																																																				type="submit"
+																																																				value="Add to cart"
+																																																				class="btn" />
+																																																		</p>
+																																																	</form>
+
+																																																</div>
+																																															</div>
+																																														</div>
+																																														<section
+																																															class="Trivandrum">
+																																															<div
+																																																id="site">
+																																																<div
+																																																	class="container">
+																																																	<div class="title-box"
+																																																		id="Trivandrum">
+																																																		<h2>Besant
+																																																			Nagar
+																																																		</h2>
+																																																	</div>
+																																																	<div
+																																																		class="row">
+																																																		<div
+																																																			class="col-md-3">
+																																																			<div
+																																																				class="product-top">
+																																																				<img
+																																																					src="images/CASHEW.jpeg">
+																																																				<div
+																																																					class="overlay-right">
+																																																					<button
+																																																						type="button"
+																																																						class="btn btn-secondary"
+																																																						title="Quick Shop">
+																																																						<i
+																																																							class="fa fa-eye"></i>
+																																																					</button>
+
+																																																					<button
+																																																						type="button"
+																																																						class="btn btn-secondary"
+																																																						title="Add to Wishlist">
+																																																						<i
+																																																							class="fa fa-heart-o"></i>
+																																																					</button>
+
+																																																					<button
+																																																						type="button"
+																																																						class="btn btn-secondary"
+																																																						title="Add to Cart">
+																																																						<i
+																																																							class="fa fa-shopping-cart"></i>
+																																																					</button>
+																																																				</div>
 																																																			</div>
-																																																			<p><input type="submit" value="Add to cart" class="btn" /></p>
-																																																		</form>
-																																																		
+
+
+																																																			<div
+																																																				class="product-bottom text-center">
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star-half-o"></i>
+																																																				<h3>Cashew
+																																																				</h3>
+																																																				<div class="product-description"
+																																																					data-name="Cashew"
+																																																					data-price="12">
+
+																																																					<p
+																																																						class="product-price">
+																																																						Rs.455/250gm
+																																																					</p>
+																																																					<form
+																																																						class="add-to-cart"
+																																																						action="cart.html"
+																																																						method="put">
+																																																						<p>
+																																																							<a
+																																																								href="https://goo.gl/maps/43QjHUB3RcUSLb6MA">Location</a>
+																																																						</p>
+																																																						<div>
+
+																																																							<label
+																																																								for="qty-2">Quantity</label>
+																																																							<input
+																																																								type="text"
+																																																								name="qty-2"
+																																																								id="qty-2"
+																																																								class="qty"
+																																																								value="1" />
+																																																						</div>
+																																																						<p><input
+																																																								type="submit"
+																																																								value="Add to cart"
+																																																								class="btn" />
+																																																						</p>
+																																																					</form>
+
+																																																				</div>
+																																																			</div>
+																																																		</div>
+
+
+																																																		<div
+																																																			class="col-md-3">
+																																																			<div
+																																																				class="product-top">
+																																																				<img
+																																																					src="images/seafood.jpg">
+																																																				<div
+																																																					class="overlay-right">
+																																																					<button
+																																																						type="button"
+																																																						class="btn btn-secondary"
+																																																						title="Quick Shop">
+																																																						<i
+																																																							class="fa fa-eye"></i>
+																																																					</button>
+
+																																																					<button
+																																																						type="button"
+																																																						class="btn btn-secondary"
+																																																						title="Add to Wishlist">
+																																																						<i
+																																																							class="fa fa-heart-o"></i>
+																																																					</button>
+
+																																																					<button
+																																																						type="button"
+																																																						class="btn btn-secondary"
+																																																						title="Add to Cart">
+																																																						<i
+																																																							class="fa fa-shopping-cart"></i>
+																																																					</button>
+																																																				</div>
+																																																			</div>
+
+
+																																																			<div
+																																																				class="product-bottom text-center">
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star"></i>
+																																																				<i
+																																																					class="fa fa-star-half-o"></i>
+																																																				<h3>Seafood
+																																																				</h3>
+
+																																																				<div class="product-description"
+																																																					data-name="Seafood"
+																																																					data-price="34">
+
+																																																					<p
+																																																						class="product-price">
+																																																						Rs.250/kg
+																																																					</p>
+																																																					<form
+																																																						class="add-to-cart"
+																																																						action="cart.html"
+																																																						method="put">
+																																																						<p>
+																																																							<a
+																																																								href="https://goo.gl/maps/zDgTjCiw8mubb1N16">Location</a>
+																																																						</p>
+																																																						<div>
+
+																																																							<label
+																																																								for="qty-2">Quantity</label>
+																																																							<input
+																																																								type="text"
+																																																								name="qty-2"
+																																																								id="qty-2"
+																																																								class="qty"
+																																																								value="1" />
+																																																						</div>
+																																																						<p><input
+																																																								type="submit"
+																																																								value="Add to cart"
+																																																								class="btn" />
+																																																						</p>
+																																																					</form>
+
+																																																				</div>
+																																																			</div>
+																																																		</div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																																																	</div>
+																																																</div>
+																																														</section>
+																																														<!------About Section------->
+																																														<section
+																																															id="about">
+																																															<div
+																																																class="container">
+																																																<div
+																																																	class="row">
+																																																	<div
+																																																		class="col-md-6">
+																																																		<h2>About
+																																																			Us
+																																																		</h2>
+																																																		<div
+																																																			class="about-content">
+																																																			[Project
+																																																			for
+																																																			Rhapsody
+																																																			-
+																																																			Class
+																																																			10]
+																																																			This
+																																																			is
+																																																			an
+																																																			exemplary
+																																																			hyperlocal
+																																																			business
+																																																			listing
+																																																			and
+																																																			ordering
+																																																			service
+																																																			website
+																																																			that
+																																																			helps
+																																																			profit
+																																																			hyperlocal
+																																																			businesses.
+
+																																																		</div>
+																																																		<button
+																																																			type="button"
+																																																			class="btn btn-primary">Read
+																																																			More>>
+
+																																																		</button>
+
+																																																	</div>
+																																																	<div
+																																																		class="col-md-6 skills-bar">
+																																																		<p>Delivery
+																																																			Rate
+																																																		</p>
+																																																		<div
+																																																			class="progress">
+																																																			<div class="progress-bar"
+																																																				style="width:85%;">
+																																																				85%
+																																																			</div>
+																																																		</div>
+
+																																																		<p>Customer
+																																																			Growth
+																																																		</p>
+																																																		<div
+																																																			class="progress">
+																																																			<div class="progress-bar"
+																																																				style="width:75%;">
+																																																				75%
+																																																			</div>
+																																																		</div>
+
+																																																		<p>Happy
+																																																			Employee
+																																																		</p>
+																																																		<div
+																																																			class="progress">
+																																																			<div class="progress-bar"
+																																																				style="width:90%;">
+																																																				90%
+																																																			</div>
+																																																		</div>
+
+																																																	</div>
+																																																</div>
+
 																																															</div>
-																																															</div>
-																																															</div>
-																																														 
 
-																																																						
-																																															
+																																															<!------Services Section------->
+																																															<section
+																																																id="services">
 
+																																																<div
+																																																	class="container">
+																																																	<h1>Our
+																																																		Services
+																																																	</h1>
+																																																	<div
+																																																		class="row services">
+																																																		<div
+																																																			class="col-md-4 text-center">
+																																																			<div
+																																																				class="icon">
+																																																				<i
+																																																					class="fa fa-phone"></i>
+																																																			</div>
+																																																			<h3> 24/7
+																																																				Support
+																																																			</h3>
+																																																			<p>on
+																																																				order
+																																																				related
+																																																				queries
+																																																			</p>
+																																																		</div>
 
-			
+																																																		<div
+																																																			class="col-md-4 text-center">
+																																																			<div
+																																																				class="icon">
+																																																				<i
+																																																					class="fa fa-shopping-cart"></i>
+																																																			</div>
+																																																			<h3> Return
+																																																				within
+																																																				30
+																																																				days
+																																																			</h3>
+																																																			<p>of
+																																																				receiving
+																																																				your
+																																																				order
+																																																			</p>
+																																																		</div>
 
+																																																		<div
+																																																			class="col-md-4 text-center">
+																																																			<div
+																																																				class="icon">
+																																																				<i
+																																																					class="fa fa-truck"></i>
+																																																			</div>
+																																																			<h3>Get
+																																																				free
+																																																				delivery
+																																																			</h3>
+																																																			<p>on
+																																																				orders
+																																																				above
+																																																				Rs.300
+																																																			</p>
+																																																		</div>
+																																																	</div>
+																																																</div>
 
-
-	
-
-
-
-
-
-
-	</div>
-</div>
-</section>
-<!------About Section------->	
-	<section id="about">
-	<div class="container">
-		<div class="row">
-			<div class="col-md-6">
-			<h2>About Us</h2>
-				<div class="about-content">
-					[Project for Rhapsody - Class 10]
-					This is an exemplary hyperlocal business listing and ordering service website that helps profit hyperlocal businesses.
-
-				</div>
-			<button type="button" class="btn btn-primary">Read More>>
-			
-			</button>
-			
-			</div>
-			<div class="col-md-6 skills-bar">
-			<p>Delivery Rate</p>
-			<div class="progress">
-			<div class="progress-bar" style="width:85%;">85%</div>
-			</div>
-			
-			<p>Customer Growth</p>
-			<div class="progress">
-			<div class="progress-bar" style="width:75%;">75%</div>
-			</div>
-			
-			<p>Happy Employee</p>
-			<div class="progress">
-			<div class="progress-bar" style="width:90%;">90%</div>
-			</div>
-			
-			</div>
-		</div>
-		
-	</div>	
-		
-<!------Services Section------->		
-	<section id="services">
-	
-		<div class="container">
-			<h1>Our Services</h1>
-			<div class="row services" >
-				<div class= "col-md-4 text-center">
-					<div class="icon">
-					<i class="fa fa-phone"></i>
-					</div>
-					<h3> 24/7 Support</h3>
-					<p>on order related queries</p>
-				</div>
-			
-				<div class="col-md-4 text-center">
-					<div class="icon">
-					<i class="fa fa-shopping-cart"></i>
-					</div>
-					<h3> Return within 30 days</h3>
-					<p>of receiving your order</p>
-				</div>
-			
-				<div class="col-md-4 text-center">
-					<div class="icon">
-					<i class="fa fa-truck"></i>
-					</div>
-					<h3>Get free delivery</h3>
-					<p>on orders above Rs.300</p>
-				</div>
-			</div>
-		</div>
-	
-	</section>
-	
+																																															</section>
 
 
-<!-----Team------->
-<section id="team">
-	
-	<div class="container">
-		<h1>Our Team</h1>
-		<div class="row">
-			<div class="col-md-3 profile-pic text-center">
-				
-				<h2>Adhvaith N.</h2>
-				
-				
-			</div>
-			
-			<div class="col-md-3 profile-pic text-center">
-				
-				<h2>Aadithya Ram</h2>
-				
-				
-			</div>
-			
-			<div class="col-md-3 profile-pic text-center">
-				
-				<h2>Adithya Ashwin Kumar</h2>
-				
-				
-			</div>
-			
-			<div class="col-md-3 profile-pic text-center">
-				
-				<h2>Adarsh N. Chetri</h2>
-				
-				
-			</div>
-			<div class="col-md-3 profile-pic text-center">
-				
-				<h2>Abhinav Balaji Shankar</h2>
-				
-				
-			</div>
-			<div class="col-md-3 profile-pic text-center">
-				
-				<h2>Aadithya K. S.</h2>
-				
-				
-			</div>
-		</div>	
-	</div>
-	
-</section>
 
-<!------COntact------------>	
-<section id="contact">	
-	
-	<div class="container">
-		<h1>Get In Touch</h1>
-		<div class="row">
-			<div class="col-md-6">
-				<form class="contact-form">
-				<div class="form-group">
-				<input type="text" class="form-control" placeholder="Your Name..">
-				</div>
-				<div class="form-group">
-				<input type="number" class="form-control" placeholder="Phone no.">
-				</div>
-				<div class="form-group">
-				<input type="email" class="form-control" placeholder="Email..">
-				</div>
-				<div class="form-group">
-				<textarea class="form-control" rows="4" placeholder="Message.."></textarea>
-				</div>
-			
-				<button type="submit" class="btn btn-primary">Submit</button>
-				</form>
-			</div>
-			<div class="col-md-6 contact-info">
-				<div class="follow"><b><i class="fa fa-map-marker"></i>  </b>HQ: Nungambakkam, Chennai</div>
-				<div class="follow"><b><i class="fa fa-mobile"></i>  </b>+91 1111222299</div>
-				<div class="follow"><b><i class="fa fa-envelope"></i>  </b>rhapsody@gmail.com</div>
-				
-				
-				<div class="follow"><label><b>Socials </b></label>
-				<a href="https://www.facebook.com/"><i class="fa fa-facebook"></i></a>
-				<a href="https://www.youtube.com/"><i class="fa fa-youtube-play"></i></a>
-				<a href="https://twitter.com/login"><i class="fa fa-twitter"></i></a>
-				<a href="https://myaccount.google.com/"><i class="fa fa-google-plus"></i></a>
-				
-				</div>
-			</div>
-			
-		</div>
+																																															<!-----Team------->
+																																															<section
+																																																id="team">
 
-	</div>
+																																																<div
+																																																	class="container">
+																																																	<h1>Our
+																																																		Team
+																																																	</h1>
+																																																	<div
+																																																		class="row">
+																																																		<div
+																																																			class="col-md-3 profile-pic text-center">
 
-</section>
+																																																			<h2>Adhvaith
+																																																				N.
+																																																			</h2>
+
+
+																																																		</div>
+
+																																																		<div
+																																																			class="col-md-3 profile-pic text-center">
+
+																																																			<h2>Aadithya
+																																																				Ram
+																																																			</h2>
+
+
+																																																		</div>
+
+																																																		<div
+																																																			class="col-md-3 profile-pic text-center">
+
+																																																			<h2>Adithya
+																																																				Ashwin
+																																																				Kumar
+																																																			</h2>
+
+
+																																																		</div>
+
+																																																		<div
+																																																			class="col-md-3 profile-pic text-center">
+
+																																																			<h2>Adarsh
+																																																				N.
+																																																				Chetri
+																																																			</h2>
+
+
+																																																		</div>
+																																																		<div
+																																																			class="col-md-3 profile-pic text-center">
+
+																																																			<h2>Abhinav
+																																																				Balaji
+																																																				Shankar
+																																																			</h2>
+
+
+																																																		</div>
+																																																		<div
+																																																			class="col-md-3 profile-pic text-center">
+
+																																																			<h2>Aadithya
+																																																				K.
+																																																				S.
+																																																			</h2>
+
+
+																																																		</div>
+																																																	</div>
+																																																</div>
+
+																																															</section>
+
+																																															<!------COntact------------>
+																																															<section
+																																																id="contact">
+
+																																																<div
+																																																	class="container">
+																																																	<h1>Get
+																																																		In
+																																																		Touch
+																																																	</h1>
+																																																	<div
+																																																		class="row">
+																																																		<div
+																																																			class="col-md-6">
+																																																			<form
+																																																				class="contact-form">
+																																																				<div
+																																																					class="form-group">
+																																																					<input
+																																																						type="text"
+																																																						class="form-control"
+																																																						placeholder="Your Name..">
+																																																				</div>
+																																																				<div
+																																																					class="form-group">
+																																																					<input
+																																																						type="number"
+																																																						class="form-control"
+																																																						placeholder="Phone no.">
+																																																				</div>
+																																																				<div
+																																																					class="form-group">
+																																																					<input
+																																																						type="email"
+																																																						class="form-control"
+																																																						placeholder="Email..">
+																																																				</div>
+																																																				<div
+																																																					class="form-group">
+																																																					<textarea
+																																																						class="form-control"
+																																																						rows="4"
+																																																						placeholder="Message.."></textarea>
+																																																				</div>
+
+																																																				<button
+																																																					type="submit"
+																																																					class="btn btn-primary">Submit</button>
+																																																			</form>
+																																																		</div>
+																																																		<div
+																																																			class="col-md-6 contact-info">
+																																																			<div
+																																																				class="follow">
+																																																				<b><i
+																																																						class="fa fa-map-marker"></i>
+																																																				</b>HQ:
+																																																				Nungambakkam,
+																																																				Chennai
+																																																			</div>
+																																																			<div
+																																																				class="follow">
+																																																				<b><i
+																																																						class="fa fa-mobile"></i>
+																																																				</b>+91
+																																																				1111222299
+																																																			</div>
+																																																			<div
+																																																				class="follow">
+																																																				<b><i
+																																																						class="fa fa-envelope"></i>
+																																																				</b>rhapsody@gmail.com
+																																																			</div>
+
+
+																																																			<div
+																																																				class="follow">
+																																																				<label><b>Socials
+																																																					</b></label>
+																																																				<a
+																																																					href="https://www.facebook.com/"><i
+																																																						class="fa fa-facebook"></i></a>
+																																																				<a
+																																																					href="https://www.youtube.com/"><i
+																																																						class="fa fa-youtube-play"></i></a>
+																																																				<a
+																																																					href="https://twitter.com/login"><i
+																																																						class="fa fa-twitter"></i></a>
+																																																				<a
+																																																					href="https://myaccount.google.com/"><i
+																																																						class="fa fa-google-plus"></i></a>
+
+																																																			</div>
+																																																		</div>
+
+																																																	</div>
+
+																																																</div>
+
+																																															</section>
 
 </body>
-</html>	
+
+</html>
